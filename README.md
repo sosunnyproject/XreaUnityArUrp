@@ -1,10 +1,6 @@
 # xreaUnityURP
 XREA Team Project: Unity 2020.3.12f1 
 
-## 디렉토리 설명
-- 메인 프로젝트: arUrpScenes
-- 이전 프로젝트: xx_old_version
-
 ## 환경
 - 버전: 2020.3.12f1
 - 초기 세팅 환경: 3D
