@@ -1,7 +1,8 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - com.guinealion.animatedBook.LightweightBookHelper
+    - LightweightBookHelper
+    - TestAudio
     Unity.RenderPipelines.Core.Runtime.dll:
     - UnityEngine.Rendering.UI.DebugUIHandlerBitField
     - UnityEngine.Rendering.UI.DebugUIHandlerButton
@@ -39,8 +40,12 @@ ScriptsOnlyBuild:
     - UnityEngine.Rendering.Universal.XRSystemData
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
-    Unity.Timeline.Editor.dll:
-    - TimelineProjectSettings
+    Unity.Timeline.dll:
+    - UnityEngine.Timeline.ActivationPlayableAsset
+    - UnityEngine.Timeline.ActivationTrack
+    - UnityEngine.Timeline.AnimationTrack
+    - UnityEngine.Timeline.MarkerTrack
+    - UnityEngine.Timeline.TimelineAsset
     Unity.XR.ARCore.Editor.dll:
     - UnityEditor.XR.ARCore.ARCoreSettings
     Unity.XR.ARCore.dll:
@@ -50,6 +55,8 @@ ScriptsOnlyBuild:
     - UnityEngine.XR.ARFoundation.ARCameraBackground
     - UnityEngine.XR.ARFoundation.ARCameraManager
     - UnityEngine.XR.ARFoundation.ARInputManager
+    - UnityEngine.XR.ARFoundation.ARPlane
+    - UnityEngine.XR.ARFoundation.ARPlaneMeshVisualizer
     - UnityEngine.XR.ARFoundation.ARPoseDriver
     - UnityEngine.XR.ARFoundation.ARSession
     - UnityEngine.XR.ARFoundation.ARSessionOrigin
@@ -64,16 +71,16 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
     UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.ContentSizeFitter
@@ -88,7 +95,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Toggle
     - UnityEngine.UI.VerticalLayoutGroup
   sceneClasses:
-    Assets/Scenes/mediaRoomTest.unity:
+    Assets/Scenes/bookURP_ss.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -113,6 +120,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 74
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 91
@@ -124,41 +135,53 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
+      Script: {instanceID: 1600}
+    - Class: 114
       Script: {instanceID: 1602}
     - Class: 114
       Script: {instanceID: 1604}
     - Class: 114
       Script: {instanceID: 1606}
     - Class: 114
-      Script: {instanceID: 1608}
+      Script: {instanceID: 1612}
     - Class: 114
-      Script: {instanceID: 1614}
+      Script: {instanceID: 1630}
     - Class: 114
-      Script: {instanceID: 1724}
+      Script: {instanceID: 1722}
     - Class: 114
-      Script: {instanceID: 1756}
+      Script: {instanceID: 1754}
     - Class: 114
-      Script: {instanceID: 2284}
+      Script: {instanceID: 2282}
     - Class: 114
-      Script: {instanceID: 2366}
+      Script: {instanceID: 2364}
     - Class: 114
-      Script: {instanceID: 3006}
+      Script: {instanceID: 2570}
     - Class: 114
-      Script: {instanceID: 3074}
+      Script: {instanceID: 2592}
     - Class: 114
-      Script: {instanceID: 3128}
+      Script: {instanceID: 3004}
     - Class: 114
-      Script: {instanceID: 3148}
+      Script: {instanceID: 3072}
     - Class: 114
-      Script: {instanceID: 3152}
+      Script: {instanceID: 3126}
+    - Class: 114
+      Script: {instanceID: 3146}
+    - Class: 114
+      Script: {instanceID: 3150}
+    - Class: 114
+      Script: {instanceID: 3156}
     - Class: 114
       Script: {instanceID: 3202}
     - Class: 114
       Script: {instanceID: 3308}
     - Class: 114
+      Script: {instanceID: 3388}
+    - Class: 114
       Script: {instanceID: 3426}
     - Class: 114
       Script: {instanceID: 3504}
+    - Class: 114
+      Script: {instanceID: 3552}
     - Class: 114
       Script: {instanceID: 3702}
     - Class: 114
@@ -171,6 +194,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 4364}
     - Class: 114
       Script: {instanceID: 4436}
+    - Class: 114
+      Script: {instanceID: 4488}
     - Class: 114
       Script: {instanceID: 4808}
     - Class: 114
@@ -202,7 +227,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5770}
     - Class: 114
+      Script: {instanceID: 5844}
+    - Class: 114
       Script: {instanceID: 5854}
+    - Class: 114
+      Script: {instanceID: 5890}
     - Class: 114
       Script: {instanceID: 5958}
     - Class: 114
@@ -220,8 +249,12 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7068}
     - Class: 114
+      Script: {instanceID: 7140}
+    - Class: 114
       Script: {instanceID: 7284}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 120
       Script: {instanceID: 0}
     - Class: 128
       Script: {instanceID: 0}
@@ -231,6 +264,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 196
       Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
     - Class: 222
@@ -238,6 +275,10 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
+      Script: {instanceID: 0}
+    - Class: 258
+      Script: {instanceID: 0}
+    - Class: 850595691
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -542,6 +583,12 @@ ScriptsOnlyBuild:
     className: ContentSizeFitter
   - hash:
       serializedVersion: 2
+      Hash: 72304f71a15c90e3da9c4344de02ac84
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TestAudio
+  - hash:
+      serializedVersion: 2
       Hash: 2388eb9e99b86b3813e7b6dbfe4b3e0c
     assemblyName: Unity.RenderPipelines.Core.Runtime.dll
     namespaceName: UnityEngine.Rendering.UI
@@ -826,7 +873,7 @@ ScriptsOnlyBuild:
       serializedVersion: 2
       Hash: 4cf9750feca0f752575118d6729e8eb7
     assemblyName: Assembly-CSharp.dll
-    namespaceName: com.guinealion.animatedBook
+    namespaceName: 
     className: LightweightBookHelper
   - hash:
       serializedVersion: 2
@@ -1352,5 +1399,5 @@ ScriptsOnlyBuild:
     className: TouchInputModule
   platform: 13
   scenePathNames:
-  - Assets/Scenes/mediaRoomTest.unity
-  playerPath: C:/SapyXrea/xrsapy_sunny/arUrpBuild0629/androidbuildtest.apk
+  - Assets/Scenes/bookURP_ss.unity
+  playerPath: C:/SapyXrea/xrsapy_sunny/XreaUnityArUrp/bookMarkerTest.apk

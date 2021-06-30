@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace com.guinealion.animatedBook {
-	[ExecuteInEditMode]
+//namespace com.guinealion.animatedBook {
+//	[ExecuteInEditMode]
 
 
 	public class LightweightBookHelper : MonoBehaviour {
@@ -121,7 +121,7 @@ namespace com.guinealion.animatedBook {
 			//After we have waited 5 seconds print the time again.
 			Debug.Log("Finished Coroutine at timestamp : " + Time.time);
 
-			Open(0.25f);
+			Open(0.5f);
 		}
 
 		private void OnValidate() {
@@ -231,4 +231,4 @@ namespace com.guinealion.animatedBook {
 		}
 
 	}
-}
+//}
