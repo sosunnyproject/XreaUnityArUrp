@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Book_HistoryOfArt
-  m_Shader: {fileID: 4800000, guid: 438a46597b49ede4eb5fbce4ccbcbdff, type: 3}
+  m_Shader: {fileID: 4800000, guid: 1007f7e2cf73dd14fbe9a439302de9f7, type: 3}
   m_ShaderKeywords: _IMAGEMODE_ALPHABLEND
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
@@ -47,6 +47,14 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _MetallicMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -61,17 +69,30 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _AlphaBlend: 0
+    - _BlendOp: 0
     - _BumpScale: 1
+    - _CameraFadingEnabled: 0
+    - _CameraFarFadeDistance: 2
+    - _CameraNearFadeDistance: 1
     - _Columns: 2
+    - _Cull: 2
     - _Cutoff: 0.5
     - _Debug: 0
     - _DetailNormalMapScale: 1
+    - _DistortionBlend: 0.5
+    - _DistortionEnabled: 0
+    - _DistortionStrength: 1
+    - _DistortionStrengthScaled: 0
     - _DstBlend: 0
+    - _EmissionEnabled: 0
     - _FlipPageOffset: 0.0001
+    - _FlipbookMode: 0
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _ImageMode: 2
+    - _InkMetalic: 1
+    - _LightingEnabled: 1
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
@@ -82,6 +103,9 @@ Material:
     - _ProgressThreshold: 0.02
     - _Rows: 3
     - _SmoothnessTextureChannel: 0
+    - _SoftParticlesEnabled: 0
+    - _SoftParticlesFarFadeDistance: 1
+    - _SoftParticlesNearFadeDistance: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _UVSec: 0
@@ -91,9 +115,12 @@ Material:
     - _WaveLength: 0.43
     - _ZWrite: 1
     m_Colors:
+    - _CameraFadeParams: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 0.745283, g: 0.745283, b: 0.745283, a: 1}
     - _ColorA: {r: 0, g: 0, b: 0, a: 0}
     - _ColorB: {r: 0, g: 0, b: 0, a: 1}
     - _ColorG: {r: 0, g: 0, b: 0, a: 1}
     - _ColorR: {r: 0, g: 0, b: 0, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _SoftParticleFadeParams: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
