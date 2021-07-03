@@ -1,9 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.XR.ARSubsystems;
 
 public class PlayAudioBook : MonoBehaviour
 {
+    // XR
+    private TrackingState trackingState;
+
+    // audios
     public LightweightBookHelper lightweightBookHelper;
 
     public AudioClip[] AudioList;
@@ -16,8 +21,13 @@ public class PlayAudioBook : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        MaxPage = AudioList.Length;
+        InitPlay();
+    }
 
+    private void InitPlay()
+    {
+        MaxPage = AudioList.Length;
+        PageIndex = 0;
         audioSource.clip = AudioList[PageIndex];
         audioSource.Play();
         Debug.Log("audio length is: " + audioSource.clip.length);
@@ -37,6 +47,8 @@ public class PlayAudioBook : MonoBehaviour
 
     private void Update()
     {
+        Debug.Log("trackingState : " + trackingState);
+
         if (playNext)
         {
             if (MaxPage > PageIndex)
@@ -49,8 +61,19 @@ public class PlayAudioBook : MonoBehaviour
                 StartCoroutine(alertEnd());
                 PageIndex++;
                 Debug.Log("next index is: " + PageIndex);
+            } else
+            {
+                Debug.Log("Last Page");
+                PageIndex = 0; // go back to beginning
+                lightweightBookHelper.GoToPage(0);
             }
             playNext = false;
         }
+        /**
+        if((PageIndex == 0) && !audioSource.isPlaying)
+        {
+            InitPlay();
+        }
+        */
     }
 }

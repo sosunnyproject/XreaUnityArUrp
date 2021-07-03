@@ -424,6 +424,7 @@ m_PackageAssets:
         - 7.5.2
         - 7.5.3
         - 7.6.0
+        - 7.7.0
         - 8.0.1
         - 8.1.0
         - 8.2.0
@@ -441,9 +442,11 @@ m_PackageAssets:
         - 10.3.2
         - 10.4.0
         - 10.5.0
+        - 10.5.1
         compatible:
         - 10.5.0
-        verified: 10.5.0
+        - 10.5.1
+        verified: 10.5.1
       dependencies:
       - name: com.unity.mathematics
         version: 1.1.0
@@ -1053,6 +1056,7 @@ m_PackageAssets:
         - 4.2.0-pre.7
         - 4.2.0-pre.8
         - 4.2.0-pre.9
+        - 4.2.0-pre.10
         compatible:
         - 1.0.0-preview.24
         - 2.0.2
@@ -1119,6 +1123,7 @@ m_PackageAssets:
         - 4.2.0-pre.7
         - 4.2.0-pre.8
         - 4.2.0-pre.9
+        - 4.2.0-pre.10
         verified: 4.1.7
       dependencies:
       - name: com.unity.xr.arsubsystems
@@ -1271,6 +1276,7 @@ m_PackageAssets:
         - 4.2.0-pre.7
         - 4.2.0-pre.8
         - 4.2.0-pre.9
+        - 4.2.0-pre.10
         compatible:
         - 1.0.0-preview.12
         - 1.0.0-preview.13
@@ -1344,6 +1350,7 @@ m_PackageAssets:
         - 4.2.0-pre.7
         - 4.2.0-pre.8
         - 4.2.0-pre.9
+        - 4.2.0-pre.10
         verified: 4.1.7
       dependencies:
       - name: com.unity.xr.arsubsystems
@@ -3219,6 +3226,7 @@ m_PackageAssets:
         - 4.2.0-pre.7
         - 4.2.0-pre.8
         - 4.2.0-pre.9
+        - 4.2.0-pre.10
         compatible:
         - 4.1.7
         - 4.2.0-pre.2
@@ -3228,6 +3236,7 @@ m_PackageAssets:
         - 4.2.0-pre.7
         - 4.2.0-pre.8
         - 4.2.0-pre.9
+        - 4.2.0-pre.10
         verified: 4.1.7
       dependencies:
       - name: com.unity.subsystemregistration
@@ -3620,6 +3629,7 @@ m_PackageAssets:
         - 7.5.2
         - 7.5.3
         - 7.6.0
+        - 7.7.0
         - 8.0.1
         - 8.1.0
         - 8.2.0
@@ -3638,9 +3648,11 @@ m_PackageAssets:
         - 10.3.2
         - 10.4.0
         - 10.5.0
+        - 10.5.1
         compatible:
         - 10.5.0
-        verified: 10.5.0
+        - 10.5.1
+        verified: 10.5.1
       dependencies:
       - name: com.unity.ugui
         version: 1.0.0
@@ -3766,6 +3778,7 @@ m_PackageAssets:
         - 7.5.2
         - 7.5.3
         - 7.6.0
+        - 7.7.0
         - 8.0.1
         - 8.1.0
         - 8.2.0
@@ -3783,9 +3796,11 @@ m_PackageAssets:
         - 10.3.2
         - 10.4.0
         - 10.5.0
+        - 10.5.1
         compatible:
         - 10.5.0
-        verified: 10.5.0
+        - 10.5.1
+        verified: 10.5.1
       dependencies:
       - name: com.unity.render-pipelines.core
         version: 10.5.0
