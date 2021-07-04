@@ -15,11 +15,11 @@ D:/XreaUnityArUrp
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50240
+51233
 Successfully changed project path to: D:/XreaUnityArUrp
 D:/XreaUnityArUrp
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 236.39 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 66.86 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.12f1 (b3b2c6512326)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Resources/UnitySubsystems
@@ -36,16 +36,119 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56280
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56584
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.158945 seconds.
+Registered in 0.003425 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 69.58 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 72.65 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  7.044 seconds
+- Completed reload, in  3.052 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.676544 seconds.
+Registered in 0.010960 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 63.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.506 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.17 seconds
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3048 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 240.6 MB.
+System memory in use after: 240.8 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3495.
+Total: 3.036800 ms (FindLiveObjects: 0.291900 ms CreateObjectMapping: 0.165000 ms MarkObjects: 2.417400 ms  DeleteObjects: 0.161500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scene6_Monster/Butterfly_CJE_0703/Butterfly_CJE_0703.max
+  artifactKey: Guid(aa6d8f49048cb6d4fb41f4e3e05f0fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene6_Monster/Butterfly_CJE_0703/Butterfly_CJE_0703.max using Guid(aa6d8f49048cb6d4fb41f4e3e05f0fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a59a4a983cbd3d5c28c23a8c9f2604fb') in 0.082019 seconds 
+  Import took 0.088518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000404 seconds.
+  path: Assets/Scene6_Monster/Butterfly_CJE_0703/Butterfly_low_N.png
+  artifactKey: Guid(a00a2c3137e68f84a886b72a4e350256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene6_Monster/Butterfly_CJE_0703/Butterfly_low_N.png using Guid(a00a2c3137e68f84a886b72a4e350256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f71270b7d1c9e28df9bcb5667dee3ea3') in 0.315051 seconds 
+  Import took 0.321019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000397 seconds.
+  path: Assets/Scene6_Monster/Butterfly_CJE_0703
+  artifactKey: Guid(06c401b9099bb154cb23681113428d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene6_Monster/Butterfly_CJE_0703 using Guid(06c401b9099bb154cb23681113428d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18f1e5843c7fe388d550ce832848c265') in 0.002522 seconds 
+  Import took 0.007669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/Scene6_Monster/Butterfly_CJE_0703/Butterfly_low_D.png
+  artifactKey: Guid(f4b1c97bb949c514497dfbd04ef41394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene6_Monster/Butterfly_CJE_0703/Butterfly_low_D.png using Guid(f4b1c97bb949c514497dfbd04ef41394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09039021684a7ba09ef08e5e240b5a4b') in 0.077574 seconds 
+  Import took 0.083377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 84.624813 seconds.
+  path: Assets/Scene2_Book/AnimatedBook/Models/book.fbx
+  artifactKey: Guid(bee9b6fe4f542ac45a5cd90290617499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene2_Book/AnimatedBook/Models/book.fbx using Guid(bee9b6fe4f542ac45a5cd90290617499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd4e74ef7761cc79d28434b93de0ae6f') in 0.411090 seconds 
+  Import took 0.417323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.411092 seconds.
+  path: Assets/butterfly.mat
+  artifactKey: Guid(a9833609733c9024fa1e11e6902922c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/butterfly.mat using Guid(a9833609733c9024fa1e11e6902922c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '247ce61fc7c7600584d7d83b3a02ddfd') in 0.028232 seconds 
+  Import took 0.035585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 106.911350 seconds.
+  path: Assets/Scene6_Monster/Butterfly_CJE_0703/Butterfly_low_N.png
+  artifactKey: Guid(a00a2c3137e68f84a886b72a4e350256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene6_Monster/Butterfly_CJE_0703/Butterfly_low_N.png using Guid(a00a2c3137e68f84a886b72a4e350256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c23de91c260d5ad9ec7445423ae8d70') in 0.089468 seconds 
+  Import took 0.096573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 489.191972 seconds.
+  path: Assets/Scene6_Monster/butterfly.mat
+  artifactKey: Guid(a9833609733c9024fa1e11e6902922c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene6_Monster/butterfly.mat using Guid(a9833609733c9024fa1e11e6902922c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbdfb9a6d452d44f8aa7cf96940231cb') in 0.192417 seconds 
+  Import took 0.201407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1150.400639 seconds.
+  path: Assets/Scene6_Monster/butterfly.mat
+  artifactKey: Guid(a9833609733c9024fa1e11e6902922c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene6_Monster/butterfly.mat using Guid(a9833609733c9024fa1e11e6902922c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0967ded8b326c60be6b28b594759174b') in 0.142969 seconds 
+  Import took 0.151122 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

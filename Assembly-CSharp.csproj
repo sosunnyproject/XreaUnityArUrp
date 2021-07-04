@@ -47,22 +47,15 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\testFolder\TestAudio.cs" />
+     <Compile Include="Assets\objPositionTest\ObjControl.cs" />
      <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
      <Compile Include="Assets\Scripts\PlayAudioBook.cs" />
-     <Compile Include="Assets\AnimatedBook\Scripts\LightweightBookHelper.cs" />
-     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
-     <Compile Include="Assets\Resources\ss\UIManager.cs" />
-     <None Include="Assets\AnimatedBook\Standard\Shaders\AnimatedBookStandard_BlackAndWhite.shader" />
-     <None Include="Assets\AnimatedBook\Standard\Shaders\AnimatedBook_AlphaBlend.shader" />
-     <None Include="Assets\AnimatedBook\Standard\Shaders\AnimatedBook.cginc" />
-     <None Include="Assets\AnimatedBook\Standard\Shaders\AnimatedBookStandard_AlphaBlend.shader" />
-     <None Include="Assets\AnimatedBook\Standard\Shaders\AnimatedBook_BlackAndWhite.shader" />
-     <None Include="Assets\AnimatedBook\URP\Shader\AnimatedBookMath.cginc" />
-     <None Include="Assets\AnimatedBook\Standard\Shaders\AnimatedBook_RGBColor.shader" />
-     <None Include="Assets\AnimatedBook\Standard\Shaders\AnimatedBookStandard_RGBColor.shader" />
-     <None Include="Assets\AnimatedBook\Standard\Shaders\AnimatedBookStandard.shader" />
-     <None Include="Assets\AnimatedBook\Standard\Shaders\AnimatedBook.shader" />
+     <Compile Include="Assets\Scene2_Book\AnimatedBook\Scripts\LightweightBookHelper.cs" />
+     <Compile Include="Assets\Resources\TutorialInfo\Scripts\Readme.cs" />
+     <Compile Include="Assets\Scene1\UIManager.cs" />
+     <Compile Include="Assets\AniCin.cs" />
+     <Compile Include="Assets\Scripts\BookTest.cs" />
+     <None Include="Assets\Scene2_Book\AnimatedBook\URP\Shader\AnimatedBookMath.cginc" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>

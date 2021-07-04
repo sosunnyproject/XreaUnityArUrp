@@ -10,6 +10,7 @@ public class UIManager : MonoBehaviour
     public GameObject scene_1;
     public GameObject scene_2_pre;
     public GameObject scene_2;
+    public GameObject TopButtons;
 
     void Start()
     {
@@ -46,11 +47,8 @@ public class UIManager : MonoBehaviour
         Debug.Log("Open scene_2");
         scene_2.SetActive(true);
         scene_2_pre.SetActive(false);
+        TopButtons.SetActive(false);
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

@@ -1,8 +1,8 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - LightweightBookHelper
-    - PlayAudioBook
+    - SwitchPanels
+    - UIManager
     Unity.RenderPipelines.Core.Runtime.dll:
     - UnityEngine.Rendering.UI.DebugUIHandlerBitField
     - UnityEngine.Rendering.UI.DebugUIHandlerButton
@@ -40,21 +40,22 @@ ScriptsOnlyBuild:
     - UnityEngine.Rendering.Universal.XRSystemData
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.Timeline.Editor.dll:
+    - TimelinePreferences
+    - UnityEditor.Timeline.SequenceHierarchy
+    - UnityEditor.Timeline.TimelineWindow
+    Unity.Timeline.dll:
+    - UnityEngine.Timeline.ActivationPlayableAsset
+    - UnityEngine.Timeline.ActivationTrack
+    - UnityEngine.Timeline.AnimationTrack
+    - UnityEngine.Timeline.MarkerTrack
+    - UnityEngine.Timeline.TimelineAsset
     Unity.XR.ARCore.Editor.dll:
     - UnityEditor.XR.ARCore.ARCoreSettings
     Unity.XR.ARCore.dll:
     - UnityEngine.XR.ARCore.ARCoreLoader
     Unity.XR.ARFoundation.dll:
     - UnityEngine.XR.ARFoundation.ARBackgroundRendererFeature
-    - UnityEngine.XR.ARFoundation.ARCameraBackground
-    - UnityEngine.XR.ARFoundation.ARCameraManager
-    - UnityEngine.XR.ARFoundation.ARInputManager
-    - UnityEngine.XR.ARFoundation.ARPoseDriver
-    - UnityEngine.XR.ARFoundation.ARSession
-    - UnityEngine.XR.ARFoundation.ARSessionOrigin
-    - UnityEngine.XR.ARFoundation.ARTrackedImageManager
-    Unity.XR.ARSubsystems.dll:
-    - UnityEngine.XR.ARSubsystems.XRReferenceImageLibrary
     Unity.XR.Management.Editor.dll:
     - UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget
     Unity.XR.Management.dll:
@@ -89,7 +90,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Toggle
     - UnityEngine.UI.VerticalLayoutGroup
   sceneClasses:
-    Assets/Scene2_Book/Scene2_Book.unity:
+    Assets/Scene1/Intro.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -100,21 +101,17 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 28
       Script: {instanceID: 0}
-    - Class: 43
-      Script: {instanceID: 0}
     - Class: 48
+      Script: {instanceID: 0}
+    - Class: 49
       Script: {instanceID: 0}
     - Class: 74
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
-    - Class: 82
-      Script: {instanceID: 0}
     - Class: 83
       Script: {instanceID: 0}
     - Class: 89
-      Script: {instanceID: 0}
-    - Class: 91
       Script: {instanceID: 0}
     - Class: 95
       Script: {instanceID: 0}
@@ -133,47 +130,41 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1612}
     - Class: 114
-      Script: {instanceID: 1722}
-    - Class: 114
       Script: {instanceID: 1754}
     - Class: 114
       Script: {instanceID: 2282}
     - Class: 114
       Script: {instanceID: 2364}
     - Class: 114
-      Script: {instanceID: 2570}
+      Script: {instanceID: 2572}
     - Class: 114
-      Script: {instanceID: 3004}
+      Script: {instanceID: 2594}
     - Class: 114
-      Script: {instanceID: 3072}
+      Script: {instanceID: 3006}
     - Class: 114
-      Script: {instanceID: 3126}
+      Script: {instanceID: 3074}
     - Class: 114
-      Script: {instanceID: 3146}
+      Script: {instanceID: 3128}
     - Class: 114
-      Script: {instanceID: 3150}
+      Script: {instanceID: 3152}
     - Class: 114
       Script: {instanceID: 3202}
     - Class: 114
       Script: {instanceID: 3308}
     - Class: 114
+      Script: {instanceID: 3388}
+    - Class: 114
       Script: {instanceID: 3426}
     - Class: 114
-      Script: {instanceID: 3504}
+      Script: {instanceID: 3552}
     - Class: 114
       Script: {instanceID: 3702}
     - Class: 114
-      Script: {instanceID: 3802}
-    - Class: 114
       Script: {instanceID: 3804}
-    - Class: 114
-      Script: {instanceID: 4060}
     - Class: 114
       Script: {instanceID: 4076}
     - Class: 114
-      Script: {instanceID: 4366}
-    - Class: 114
-      Script: {instanceID: 4438}
+      Script: {instanceID: 4490}
     - Class: 114
       Script: {instanceID: 4810}
     - Class: 114
@@ -191,8 +182,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5416}
     - Class: 114
-      Script: {instanceID: 5436}
-    - Class: 114
       Script: {instanceID: 5536}
     - Class: 114
       Script: {instanceID: 5608}
@@ -209,28 +198,28 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5856}
     - Class: 114
+      Script: {instanceID: 5892}
+    - Class: 114
+      Script: {instanceID: 5912}
+    - Class: 114
       Script: {instanceID: 5960}
     - Class: 114
       Script: {instanceID: 6088}
-    - Class: 114
-      Script: {instanceID: 6124}
     - Class: 114
       Script: {instanceID: 6196}
     - Class: 114
       Script: {instanceID: 6240}
     - Class: 114
-      Script: {instanceID: 6736}
+      Script: {instanceID: 6782}
     - Class: 114
-      Script: {instanceID: 6780}
+      Script: {instanceID: 7072}
     - Class: 114
-      Script: {instanceID: 7070}
+      Script: {instanceID: 7290}
     - Class: 114
-      Script: {instanceID: 7286}
+      Script: {instanceID: 20780}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
-      Script: {instanceID: 0}
-    - Class: 137
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -244,9 +233,7 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
-    - Class: 258
-      Script: {instanceID: 0}
-    - Class: 850595691
+    - Class: 320
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -1097,7 +1084,7 @@ ScriptsOnlyBuild:
     className: MarkerTrack
   - hash:
       serializedVersion: 2
-      Hash: 9308b43d7e14bfa360cde2aa7cb30564
+      Hash: e740621929cb47a6a1f08597ed5fbf93
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: UIManager
@@ -1229,6 +1216,12 @@ ScriptsOnlyBuild:
     className: EventTrigger
   - hash:
       serializedVersion: 2
+      Hash: 9127cd6d6e209839733550a888f0a2dc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AniCin
+  - hash:
+      serializedVersion: 2
       Hash: a81d4c2c1cf3ad164d277d927a193679
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -1299,6 +1292,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.Core.Runtime.dll
     namespaceName: UnityEngine.Rendering.UI
     className: DebugUIHandlerButton
+  - hash:
+      serializedVersion: 2
+      Hash: 2121cbc582dc2241a4546a2c98ea3e75
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BookTest
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1373,23 +1372,11 @@ ScriptsOnlyBuild:
     className: TouchInputModule
   - hash:
       serializedVersion: 2
-      Hash: ea300701f6a50c0b43ca14aef5d100b7
+      Hash: e87cf82ab0d929060b76ba5b11c9a6c6
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: ObjControl
-  - hash:
-      serializedVersion: 2
-      Hash: 9127cd6d6e209839733550a888f0a2dc
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: AniCin
-  - hash:
-      serializedVersion: 2
-      Hash: 2121cbc582dc2241a4546a2c98ea3e75
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: BookTest
+    className: SwitchPanels
   platform: 13
   scenePathNames:
-  - Assets/Scene2_Book/Scene2_Book.unity
-  playerPath: D:/XreaUnityArUrp/newbook.apk
+  - Assets/Scene1/Intro.unity
+  playerPath: D:/XreaUnityArUrp/tabletIntroTest.apk
