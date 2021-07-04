@@ -17,12 +17,15 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scene3_Media/mediaRoomTest.unity
     guid: 0d1bd699a8bbe9c4c82dacb9f367aaa4
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scene1/Intro.unity
     guid: 55cebdd40c4eaa648bdc77cab3621ca9
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scene2_Book/Scene2_Book.unity
     guid: 13e255687e56493439a2a840b8d3d461
+  - enabled: 0
+    path: Assets/Scene6_Monster/monsterModel.unity
+    guid: 572dcedb6ed06584cb7049da46df1019
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 6c85e4bf54fb4714a92e7a0cbfd7f469, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: a52fa56004cbf2840a27e2fdebd40310, type: 2}
