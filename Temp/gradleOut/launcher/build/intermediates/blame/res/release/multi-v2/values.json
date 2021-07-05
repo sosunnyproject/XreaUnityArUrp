@@ -1,0 +1,72 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\SapyXrea\\xrsapy_sunny\\XreaUnityArUrp\\Temp\\gradleOut\\launcher\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "C:\\SapyXrea\\xrsapy_sunny\\XreaUnityArUrp\\Temp\\gradleOut\\launcher\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "2,-1",
+                        "startColumns": "2,-1",
+                        "startOffsets": "55,-1",
+                        "endColumns": "50,-1",
+                        "endOffsets": "103,-1"
+                    },
+                    "to": {
+                        "startLines": "8,9",
+                        "startColumns": "4,4",
+                        "startOffsets": "547,600",
+                        "endColumns": "52,67",
+                        "endOffsets": "595,663"
+                    }
+                },
+                {
+                    "source": "C:\\SapyXrea\\xrsapy_sunny\\XreaUnityArUrp\\Temp\\gradleOut\\launcher\\src\\main\\res\\values\\ids.xml",
+                    "from": {
+                        "startLines": "-1",
+                        "startColumns": "-1",
+                        "startOffsets": "-1"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "45",
+                        "endOffsets": "96"
+                    }
+                },
+                {
+                    "source": "C:\\SapyXrea\\xrsapy_sunny\\XreaUnityArUrp\\Temp\\gradleOut\\launcher\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1",
+                        "startColumns": "-1,-1,-1",
+                        "startOffsets": "-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "10,12,15",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "668,768,906",
+                        "endLines": "11,14,18",
+                        "endColumns": "8,8,8",
+                        "endOffsets": "763,901,1128"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\청년예술청\\.gradle\\caches\\transforms-2\\files-2.1\\6b2eff82af4ce35dab4257dc55bbce1f\\arcore_client\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "101,152,207,333,459",
+                        "endColumns": "50,54,125,125,87",
+                        "endOffsets": "147,202,328,454,542"
+                    }
+                }
+            ]
+        }
+    ]
+}

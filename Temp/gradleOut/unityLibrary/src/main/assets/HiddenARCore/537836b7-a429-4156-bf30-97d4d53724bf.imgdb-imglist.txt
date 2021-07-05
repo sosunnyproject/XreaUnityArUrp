@@ -1,0 +1,3 @@
+9f0c258fdbed455c9f9958a43b9a9491|C:\SapyXrea\xrsapy_sunny\XreaUnityArUrp\Assets\Resources\carpet.png|0.2
+d05e5562842a458f91daa0bc408c70ce|C:\SapyXrea\xrsapy_sunny\XreaUnityArUrp\Assets\Scene1\Resources\bookSpriteImg.jpg|0.2
+62dab7d1eeee424396048fed402879a2|C:\SapyXrea\xrsapy_sunny\XreaUnityArUrp\Assets\Resources\drink.jpg|0.2

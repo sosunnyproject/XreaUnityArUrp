@@ -934,7 +934,7 @@ GameObject:
   - component: {fileID: 214747404}
   - component: {fileID: 214747403}
   m_Layer: 5
-  m_Name: Button_Home
+  m_Name: GoToHomeButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1160,7 +1160,7 @@ GameObject:
   - component: {fileID: 450917545}
   - component: {fileID: 450917544}
   m_Layer: 5
-  m_Name: Button_Yes
+  m_Name: YesButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1473,7 +1473,7 @@ GameObject:
   - component: {fileID: 606180118}
   - component: {fileID: 606180121}
   m_Layer: 5
-  m_Name: Button_No
+  m_Name: NoButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1836,8 +1836,10 @@ MonoBehaviour:
   scene_1_2: {fileID: 147416558}
   scene_1: {fileID: 1900287135}
   scene_2_pre: {fileID: 1027065950}
-  scene_2: {fileID: 2783724027449923143}
   TopButtons: {fileID: 179991738}
+  Scene1EventSystem: {fileID: 1326656921}
+  Scene1Canvas: {fileID: 720536719}
+  Scene1Camera: {fileID: 884776970}
 --- !u!114 &720536725
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2039,7 +2041,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 884776970}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &884776972
 Camera:
   m_ObjectHideFlags: 0
@@ -3087,7 +3089,7 @@ GameObject:
   - component: {fileID: 1508043281}
   - component: {fileID: 1508043280}
   m_Layer: 5
-  m_Name: Button
+  m_Name: StartButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3168,7 +3170,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 1
 --- !u!114 &1508043281
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3558,7 +3560,7 @@ GameObject:
   - component: {fileID: 1953415588}
   - component: {fileID: 1953415591}
   m_Layer: 5
-  m_Name: Button_Yes
+  m_Name: YesButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
