@@ -1,5 +1,8 @@
 ScriptsOnlyBuild:
   usedScripts:
+    Assembly-CSharp.dll:
+    - ShadersControl
+    - SwitchPanels
     Unity.RenderPipelines.Core.Runtime.dll:
     - UnityEngine.Rendering.UI.DebugUIHandlerBitField
     - UnityEngine.Rendering.UI.DebugUIHandlerButton
@@ -27,9 +30,12 @@ ScriptsOnlyBuild:
     - UnityEngine.Rendering.UI.DebugUIHandlerVector3
     - UnityEngine.Rendering.UI.DebugUIHandlerVector4
     - UnityEngine.Rendering.UI.UIFoldout
+    - UnityEngine.Rendering.Volume
+    - UnityEngine.Rendering.VolumeProfile
     Unity.RenderPipelines.Universal.Editor.dll:
     - UnityEditor.Rendering.Universal.UniversalProjectSettings
     Unity.RenderPipelines.Universal.Runtime.dll:
+    - UnityEngine.Rendering.Universal.Bloom
     - UnityEngine.Rendering.Universal.ForwardRendererData
     - UnityEngine.Rendering.Universal.PostProcessData
     - UnityEngine.Rendering.Universal.UniversalAdditionalCameraData
@@ -41,6 +47,8 @@ ScriptsOnlyBuild:
     - TimelinePreferences
     - UnityEditor.Timeline.SequenceHierarchy
     - UnityEditor.Timeline.TimelineWindow
+    Unity.Timeline.dll:
+    - UnityEngine.Timeline.TimelineAsset
     Unity.XR.ARCore.Editor.dll:
     - UnityEditor.XR.ARCore.ARCoreSettings
     Unity.XR.ARCore.dll:
@@ -64,16 +72,16 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
     UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.ContentSizeFitter
@@ -88,7 +96,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Toggle
     - UnityEngine.UI.VerticalLayoutGroup
   sceneClasses:
-    Assets/Scene4_Carpet/playRobot.unity:
+    Assets/Scene3_Media/mediaParticles.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -109,117 +117,147 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 64
       Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
     - Class: 83
       Script: {instanceID: 0}
     - Class: 89
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1600}
+      Script: {instanceID: 1628}
     - Class: 114
-      Script: {instanceID: 1602}
+      Script: {instanceID: 1630}
     - Class: 114
-      Script: {instanceID: 1604}
+      Script: {instanceID: 1632}
     - Class: 114
-      Script: {instanceID: 1606}
+      Script: {instanceID: 1634}
     - Class: 114
-      Script: {instanceID: 1708}
+      Script: {instanceID: 1640}
     - Class: 114
-      Script: {instanceID: 1818}
+      Script: {instanceID: 1750}
     - Class: 114
-      Script: {instanceID: 1850}
+      Script: {instanceID: 1782}
     - Class: 114
-      Script: {instanceID: 2378}
+      Script: {instanceID: 2314}
     - Class: 114
-      Script: {instanceID: 2460}
+      Script: {instanceID: 2396}
     - Class: 114
-      Script: {instanceID: 3100}
+      Script: {instanceID: 2602}
     - Class: 114
-      Script: {instanceID: 3168}
+      Script: {instanceID: 3038}
     - Class: 114
-      Script: {instanceID: 3222}
+      Script: {instanceID: 3106}
     - Class: 114
-      Script: {instanceID: 3242}
+      Script: {instanceID: 3160}
     - Class: 114
-      Script: {instanceID: 3246}
+      Script: {instanceID: 3180}
     - Class: 114
-      Script: {instanceID: 3296}
+      Script: {instanceID: 3184}
     - Class: 114
-      Script: {instanceID: 3402}
+      Script: {instanceID: 3234}
     - Class: 114
-      Script: {instanceID: 3520}
+      Script: {instanceID: 3340}
     - Class: 114
-      Script: {instanceID: 3598}
+      Script: {instanceID: 3458}
     - Class: 114
-      Script: {instanceID: 3796}
+      Script: {instanceID: 3536}
     - Class: 114
-      Script: {instanceID: 3898}
+      Script: {instanceID: 3734}
     - Class: 114
-      Script: {instanceID: 4154}
+      Script: {instanceID: 3838}
     - Class: 114
-      Script: {instanceID: 4170}
+      Script: {instanceID: 3984}
     - Class: 114
-      Script: {instanceID: 4460}
+      Script: {instanceID: 4094}
     - Class: 114
-      Script: {instanceID: 4904}
+      Script: {instanceID: 4110}
     - Class: 114
-      Script: {instanceID: 4918}
+      Script: {instanceID: 4400}
     - Class: 114
-      Script: {instanceID: 4974}
+      Script: {instanceID: 4682}
     - Class: 114
-      Script: {instanceID: 5154}
+      Script: {instanceID: 4846}
     - Class: 114
-      Script: {instanceID: 5156}
+      Script: {instanceID: 4860}
     - Class: 114
-      Script: {instanceID: 5176}
+      Script: {instanceID: 4916}
     - Class: 114
-      Script: {instanceID: 5408}
+      Script: {instanceID: 5096}
     - Class: 114
-      Script: {instanceID: 5512}
+      Script: {instanceID: 5098}
     - Class: 114
-      Script: {instanceID: 5532}
+      Script: {instanceID: 5118}
     - Class: 114
-      Script: {instanceID: 5632}
+      Script: {instanceID: 5218}
     - Class: 114
-      Script: {instanceID: 5704}
+      Script: {instanceID: 5350}
     - Class: 114
-      Script: {instanceID: 5710}
+      Script: {instanceID: 5454}
     - Class: 114
-      Script: {instanceID: 5798}
+      Script: {instanceID: 5474}
     - Class: 114
-      Script: {instanceID: 5832}
+      Script: {instanceID: 5574}
     - Class: 114
-      Script: {instanceID: 5868}
+      Script: {instanceID: 5646}
     - Class: 114
-      Script: {instanceID: 5952}
+      Script: {instanceID: 5652}
     - Class: 114
-      Script: {instanceID: 6056}
+      Script: {instanceID: 5740}
     - Class: 114
-      Script: {instanceID: 6184}
+      Script: {instanceID: 5774}
     - Class: 114
-      Script: {instanceID: 6220}
+      Script: {instanceID: 5810}
     - Class: 114
-      Script: {instanceID: 6292}
+      Script: {instanceID: 5884}
     - Class: 114
-      Script: {instanceID: 6336}
+      Script: {instanceID: 5894}
     - Class: 114
-      Script: {instanceID: 6832}
+      Script: {instanceID: 5998}
     - Class: 114
-      Script: {instanceID: 6876}
+      Script: {instanceID: 6126}
     - Class: 114
-      Script: {instanceID: 7166}
+      Script: {instanceID: 6162}
     - Class: 114
-      Script: {instanceID: 7384}
+      Script: {instanceID: 6234}
+    - Class: 114
+      Script: {instanceID: 6278}
+    - Class: 114
+      Script: {instanceID: 6776}
+    - Class: 114
+      Script: {instanceID: 6822}
+    - Class: 114
+      Script: {instanceID: 7112}
+    - Class: 114
+      Script: {instanceID: 7238}
+    - Class: 114
+      Script: {instanceID: 7330}
+    - Class: 114
+      Script: {instanceID: 45662}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
       Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -358,6 +396,12 @@ ScriptsOnlyBuild:
     className: TMP_StyleSheet
   - hash:
       serializedVersion: 2
+      Hash: ed87896b003033d2333c2a897989aa8a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CannonBehavior
+  - hash:
+      serializedVersion: 2
       Hash: f1d735cc1a21c3704ab52568f4fbfcf8
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner
@@ -440,6 +484,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.Core.Runtime.dll
     namespaceName: UnityEngine.Rendering.UI
     className: DebugUIHandlerWidget
+  - hash:
+      serializedVersion: 2
+      Hash: d8df5893e804fd1586146ba281b98ef3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CreateSinShapedLineStrip
   - hash:
       serializedVersion: 2
       Hash: 0c5108545fb925730d4d5887ebcdd20c
@@ -622,12 +672,6 @@ ScriptsOnlyBuild:
     className: ColorAdjustments
   - hash:
       serializedVersion: 2
-      Hash: ac825e8a883a536c1bf5245b8a9afb1c
-    assemblyName: Assembly-CSharp-Editor.dll
-    namespaceName: 
-    className: ReadmeEditor
-  - hash:
-      serializedVersion: 2
       Hash: a5781dc71a671b1ad2b38de19f24b71f
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -644,6 +688,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: 8cfb65feb9d4f736b24134830e717c23
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: VolumetricLines
+    className: VolumetricLineStripBehavior
   - hash:
       serializedVersion: 2
       Hash: 72304f71a15c90e3da9c4344de02ac84
@@ -874,6 +924,12 @@ ScriptsOnlyBuild:
     className: TransitionArmModel
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ShotBehavior
+  - hash:
+      serializedVersion: 2
       Hash: c73b38d1734fde2c84da7bd282f19e54
     assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
     namespaceName: UnityEngine.Rendering.Universal
@@ -1084,7 +1140,7 @@ ScriptsOnlyBuild:
     className: MarkerTrack
   - hash:
       serializedVersion: 2
-      Hash: 1a57d9f1d054141e3398dd1aca2e9d43
+      Hash: da4075708e190405fd764bc006af9969
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: UIManager
@@ -1180,6 +1236,12 @@ ScriptsOnlyBuild:
     className: TrackedPoseDriver
   - hash:
       serializedVersion: 2
+      Hash: 39fb3153fb45522a25fda4c017dddcd2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: VolumetricLines
+    className: VolumetricLineBehavior
+  - hash:
+      serializedVersion: 2
       Hash: 18c222bef9ae745ce69ddde9b74337ca
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
@@ -1256,6 +1318,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.ARFoundation.dll
     namespaceName: UnityEngine.XR.ARFoundation
     className: ARSessionOrigin
+  - hash:
+      serializedVersion: 2
+      Hash: 8cfb65feb9d4f736b24134830e717c23
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: VolumetricLines
+    className: VolumetricMultiLineBehavior
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -1366,11 +1434,29 @@ ScriptsOnlyBuild:
     className: TouchInputModule
   - hash:
       serializedVersion: 2
-      Hash: c60023b8b5011d16686aa7076ebfca47
+      Hash: ebcc80f0abf88cbed196c4164be40f94
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: IE.ObjectGlitchShader
+    className: BandGlitchLooper
+  - hash:
+      serializedVersion: 2
+      Hash: fb89c210ddad69f6238d6d9d56fe530f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: IE.ObjectGlitchShader
+    className: ExamplePropertyController
+  - hash:
+      serializedVersion: 2
+      Hash: ac76cdbc53e279b1fba3303819a28c31
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: IE.ObjectGlitchShader
+    className: CameraController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: multipleARImageTrack
+    className: ShadersControl
   platform: 13
   scenePathNames:
-  - Assets/Scene4_Carpet/playRobot.unity
-  playerPath: C:/SapyXrea/xrsapy_sunny/XreaUnityArUrp/Build/robotPosition.apk
+  - Assets/Scene3_Media/mediaParticles.unity
+  playerPath: D:/XreaUnityArUrp/mediaSceneShader.apk

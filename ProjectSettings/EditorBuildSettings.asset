@@ -14,8 +14,8 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: Assets/Scene3_Media/mediaRoomTest.unity
+  - enabled: 1
+    path: Assets/Scene3_Media/mediaParticles.unity
     guid: 0d1bd699a8bbe9c4c82dacb9f367aaa4
   - enabled: 0
     path: Assets/Scene1/Intro.unity
@@ -24,10 +24,10 @@ EditorBuildSettings:
     path: Assets/Scene2_Book/Scene2_Book.unity
     guid: 13e255687e56493439a2a840b8d3d461
   - enabled: 0
-    path: Assets/Scene6_Monster/monsterModel.unity
+    path: Assets/Scene6_Monster/Scenes/monsterModel.unity
     guid: 572dcedb6ed06584cb7049da46df1019
-  - enabled: 1
-    path: Assets/Scene4_Carpet/playRobot.unity
+  - enabled: 0
+    path: Assets/Scene4_Carpet/Scenes/carpetSpaceTest.unity
     guid: 53fe93f65e64a4b4ea4b611bed152617
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 6c85e4bf54fb4714a92e7a0cbfd7f469, type: 2}

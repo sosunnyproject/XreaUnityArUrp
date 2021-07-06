@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class UIManager : MonoBehaviour
 {
     // Start is called before the first frame update
+    public GameObject scene_0;
     public GameObject scene_1_1;
     public GameObject scene_1_2;
     public GameObject scene_1;
@@ -19,6 +20,13 @@ public class UIManager : MonoBehaviour
     void Start()
     {
         
+    }
+
+    public void scene_0_EnterButtonClick()
+    {
+        Debug.Log("Enter Clicked");
+        scene_1.SetActive(true);
+        scene_0.SetActive(false);
     }
 
     public void scene_1_OkButtonOnClick()
