@@ -1,8 +1,10 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - ShadersControl
-    - SwitchPanels
+    - BookTest
+    - ImgTrack
+    - VolumetricLines.VolumetricLineBehavior
+    - VolumetricLines.VolumetricLineStripBehavior
     Unity.RenderPipelines.Core.Runtime.dll:
     - UnityEngine.Rendering.UI.DebugUIHandlerBitField
     - UnityEngine.Rendering.UI.DebugUIHandlerButton
@@ -47,8 +49,6 @@ ScriptsOnlyBuild:
     - TimelinePreferences
     - UnityEditor.Timeline.SequenceHierarchy
     - UnityEditor.Timeline.TimelineWindow
-    Unity.Timeline.dll:
-    - UnityEngine.Timeline.TimelineAsset
     Unity.XR.ARCore.Editor.dll:
     - UnityEditor.XR.ARCore.ARCoreSettings
     Unity.XR.ARCore.dll:
@@ -80,8 +80,6 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
     UnityEngine.UI.dll:
-    - UnityEngine.EventSystems.EventSystem
-    - UnityEngine.EventSystems.StandaloneInputModule
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.ContentSizeFitter
@@ -96,7 +94,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Toggle
     - UnityEngine.UI.VerticalLayoutGroup
   sceneClasses:
-    Assets/Scene3_Media/mediaParticles.unity:
+    Assets/Scene4_Carpet/Scenes/carpetSpaceTest.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -121,8 +119,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 74
       Script: {instanceID: 0}
-    - Class: 81
-      Script: {instanceID: 0}
     - Class: 83
       Script: {instanceID: 0}
     - Class: 89
@@ -136,115 +132,115 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1628}
+      Script: {instanceID: 1732}
     - Class: 114
-      Script: {instanceID: 1630}
+      Script: {instanceID: 1734}
     - Class: 114
-      Script: {instanceID: 1632}
+      Script: {instanceID: 1736}
     - Class: 114
-      Script: {instanceID: 1634}
+      Script: {instanceID: 1738}
     - Class: 114
-      Script: {instanceID: 1640}
+      Script: {instanceID: 1744}
     - Class: 114
-      Script: {instanceID: 1750}
+      Script: {instanceID: 1854}
     - Class: 114
-      Script: {instanceID: 1782}
+      Script: {instanceID: 1886}
     - Class: 114
-      Script: {instanceID: 2314}
+      Script: {instanceID: 2420}
     - Class: 114
-      Script: {instanceID: 2396}
+      Script: {instanceID: 2502}
     - Class: 114
-      Script: {instanceID: 2602}
+      Script: {instanceID: 3144}
     - Class: 114
-      Script: {instanceID: 3038}
+      Script: {instanceID: 3214}
     - Class: 114
-      Script: {instanceID: 3106}
+      Script: {instanceID: 3268}
     - Class: 114
-      Script: {instanceID: 3160}
+      Script: {instanceID: 3288}
     - Class: 114
-      Script: {instanceID: 3180}
+      Script: {instanceID: 3292}
     - Class: 114
-      Script: {instanceID: 3184}
+      Script: {instanceID: 3342}
     - Class: 114
-      Script: {instanceID: 3234}
+      Script: {instanceID: 3448}
     - Class: 114
-      Script: {instanceID: 3340}
+      Script: {instanceID: 3566}
     - Class: 114
-      Script: {instanceID: 3458}
+      Script: {instanceID: 3644}
     - Class: 114
-      Script: {instanceID: 3536}
+      Script: {instanceID: 3842}
     - Class: 114
-      Script: {instanceID: 3734}
+      Script: {instanceID: 3908}
     - Class: 114
-      Script: {instanceID: 3838}
+      Script: {instanceID: 3946}
     - Class: 114
-      Script: {instanceID: 3984}
+      Script: {instanceID: 4092}
     - Class: 114
-      Script: {instanceID: 4094}
+      Script: {instanceID: 4204}
     - Class: 114
-      Script: {instanceID: 4110}
+      Script: {instanceID: 4220}
     - Class: 114
-      Script: {instanceID: 4400}
+      Script: {instanceID: 4510}
     - Class: 114
-      Script: {instanceID: 4682}
+      Script: {instanceID: 4794}
     - Class: 114
-      Script: {instanceID: 4846}
+      Script: {instanceID: 4958}
     - Class: 114
-      Script: {instanceID: 4860}
+      Script: {instanceID: 4972}
     - Class: 114
-      Script: {instanceID: 4916}
+      Script: {instanceID: 5028}
     - Class: 114
-      Script: {instanceID: 5096}
+      Script: {instanceID: 5210}
     - Class: 114
-      Script: {instanceID: 5098}
+      Script: {instanceID: 5212}
     - Class: 114
-      Script: {instanceID: 5118}
+      Script: {instanceID: 5232}
     - Class: 114
-      Script: {instanceID: 5218}
+      Script: {instanceID: 5464}
     - Class: 114
-      Script: {instanceID: 5350}
+      Script: {instanceID: 5568}
     - Class: 114
-      Script: {instanceID: 5454}
+      Script: {instanceID: 5588}
     - Class: 114
-      Script: {instanceID: 5474}
+      Script: {instanceID: 5688}
     - Class: 114
-      Script: {instanceID: 5574}
+      Script: {instanceID: 5760}
     - Class: 114
-      Script: {instanceID: 5646}
+      Script: {instanceID: 5766}
     - Class: 114
-      Script: {instanceID: 5652}
+      Script: {instanceID: 5854}
     - Class: 114
-      Script: {instanceID: 5740}
+      Script: {instanceID: 5888}
     - Class: 114
-      Script: {instanceID: 5774}
+      Script: {instanceID: 5924}
     - Class: 114
-      Script: {instanceID: 5810}
+      Script: {instanceID: 6008}
     - Class: 114
-      Script: {instanceID: 5884}
+      Script: {instanceID: 6112}
     - Class: 114
-      Script: {instanceID: 5894}
+      Script: {instanceID: 6240}
     - Class: 114
-      Script: {instanceID: 5998}
+      Script: {instanceID: 6276}
     - Class: 114
-      Script: {instanceID: 6126}
+      Script: {instanceID: 6348}
     - Class: 114
-      Script: {instanceID: 6162}
+      Script: {instanceID: 6392}
     - Class: 114
-      Script: {instanceID: 6234}
+      Script: {instanceID: 6466}
     - Class: 114
-      Script: {instanceID: 6278}
+      Script: {instanceID: 6892}
     - Class: 114
-      Script: {instanceID: 6776}
+      Script: {instanceID: 6938}
     - Class: 114
-      Script: {instanceID: 6822}
+      Script: {instanceID: 7010}
     - Class: 114
-      Script: {instanceID: 7112}
+      Script: {instanceID: 7230}
     - Class: 114
-      Script: {instanceID: 7238}
+      Script: {instanceID: 7240}
     - Class: 114
-      Script: {instanceID: 7330}
+      Script: {instanceID: 7356}
     - Class: 114
-      Script: {instanceID: 45662}
+      Script: {instanceID: 7448}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -258,6 +254,8 @@ ScriptsOnlyBuild:
     - Class: 198
       Script: {instanceID: 0}
     - Class: 199
+      Script: {instanceID: 0}
+    - Class: 212
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -346,6 +344,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: ac76cdbc53e279b1fba3303819a28c31
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: IE.ObjectGlitchShader
+    className: CameraController
   - hash:
       serializedVersion: 2
       Hash: caa533b001ae39b864ba8425019e2268
@@ -556,6 +560,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: ebcc80f0abf88cbed196c4164be40f94
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: IE.ObjectGlitchShader
+    className: BandGlitchLooper
   - hash:
       serializedVersion: 2
       Hash: ce66de8a2daf1f400e6c7f3516d2753e
@@ -798,6 +808,12 @@ ScriptsOnlyBuild:
     className: ARPointCloudParticleVisualizer
   - hash:
       serializedVersion: 2
+      Hash: fb89c210ddad69f6238d6d9d56fe530f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: IE.ObjectGlitchShader
+    className: ExamplePropertyController
+  - hash:
+      serializedVersion: 2
       Hash: 91c66736e3507bbd3c15a9b02abea21b
     assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
     namespaceName: UnityEngine.Rendering.Universal
@@ -976,6 +992,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
     namespaceName: UnityEngine.Rendering.Universal
     className: ChannelMixer
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ShadersControl
   - hash:
       serializedVersion: 2
       Hash: 8d35f16c5022311c6f4d9432be73bfcf
@@ -1290,6 +1312,12 @@ ScriptsOnlyBuild:
     className: ARBackgroundRendererFeature
   - hash:
       serializedVersion: 2
+      Hash: f19afb64e4c3383ce815fc038edca10e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SceneReset
+  - hash:
+      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -1336,6 +1364,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: d7971389350123bb4d1a636e34e9871d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ImgTrack
   - hash:
       serializedVersion: 2
       Hash: 134520f170644886bce038a4038a42c9
@@ -1432,31 +1466,7 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
-  - hash:
-      serializedVersion: 2
-      Hash: ebcc80f0abf88cbed196c4164be40f94
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: IE.ObjectGlitchShader
-    className: BandGlitchLooper
-  - hash:
-      serializedVersion: 2
-      Hash: fb89c210ddad69f6238d6d9d56fe530f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: IE.ObjectGlitchShader
-    className: ExamplePropertyController
-  - hash:
-      serializedVersion: 2
-      Hash: ac76cdbc53e279b1fba3303819a28c31
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: IE.ObjectGlitchShader
-    className: CameraController
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ShadersControl
   platform: 13
   scenePathNames:
-  - Assets/Scene3_Media/mediaParticles.unity
-  playerPath: D:/XreaUnityArUrp/mediaSceneShader.apk
+  - Assets/Scene4_Carpet/Scenes/carpetSpaceTest.unity
+  playerPath: C:/SapyXrea/xrsapy_sunny/XreaUnityArUrp/multipleTrack.apk

@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scene3_Media/mediaParticles.unity
+- path: Assets/Scene6_Monster/Scenes/monsterModel.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
