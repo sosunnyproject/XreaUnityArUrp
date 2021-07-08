@@ -19,29 +19,29 @@ MonoBehaviour:
       m_GuidLow: 4696058700920947185
       m_GuidHigh: 15648426478302960043
     m_SerializedTextureGuid:
-      m_GuidLow: 15173870349276272231
-      m_GuidHigh: 11749364269986466267
+      m_GuidLow: 10053379281285048900
+      m_GuidHigh: 4094861963533150008
     m_Size: {x: 0.2, y: 0.2}
     m_SpecifySize: 1
-    m_Name: mediaMarker
+    m_Name: scene3Media
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
       m_GuidLow: 5374581952237181742
       m_GuidHigh: 3457655097303789960
     m_SerializedTextureGuid:
-      m_GuidLow: 14097461943370851429
-      m_GuidHigh: 4694688432621703434
+      m_GuidLow: 18394009698465145552
+      m_GuidHigh: 6540718626566921576
     m_Size: {x: 0.2, y: 0.2}
     m_SpecifySize: 1
-    m_Name: drink
+    m_Name: scene6Monster
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
       m_GuidLow: 5403549408283655174
       m_GuidHigh: 8206976727240453809
     m_SerializedTextureGuid:
-      m_GuidLow: 672289427105098663
-      m_GuidHigh: 7620054107993770842
+      m_GuidLow: 5297407175605376029
+      m_GuidHigh: 8681306585691599818
     m_Size: {x: 0.2, y: 0.2}
     m_SpecifySize: 1
-    m_Name: book1
+    m_Name: scene4Play
     m_Texture: {fileID: 0}

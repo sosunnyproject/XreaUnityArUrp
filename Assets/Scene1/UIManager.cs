@@ -63,7 +63,7 @@ public class UIManager : MonoBehaviour
         Scene1Camera.SetActive(false);
         Scene1Canvas.SetActive(false);
         Scene1EventSystem.SetActive(false);
-        SceneManager.LoadScene("Scene2_Book", LoadSceneMode.Additive);
+        SceneManager.LoadScene("AllScenes", LoadSceneMode.Additive);
     }
   
 
