@@ -6,6 +6,7 @@ public class ShadersControl : MonoBehaviour {
 
     float timer = 0;
     float timerSciFi = 0;
+    public float delayOffset = 2.0f;
 
     bool back = false;
 
@@ -17,11 +18,11 @@ public class ShadersControl : MonoBehaviour {
 
         if (back == false)
         {
-            timer += Time.deltaTime / 2;
+            timer += Time.deltaTime / delayOffset;
         }
         if (back)
         {
-            timer -= Time.deltaTime / 2;
+            timer -= Time.deltaTime / delayOffset;
         }
         
         Shader.SetGlobalFloat("_ShaderDisplacement", timer);
@@ -31,7 +32,7 @@ public class ShadersControl : MonoBehaviour {
         if (timerSciFi > 1.2f)
             timerSciFi = 0;
 
-        timerSciFi += Time.deltaTime / 3;
+        timerSciFi += Time.deltaTime / (delayOffset + 1);
 
         Shader.SetGlobalFloat("_ShaderSciFi", timerSciFi);
         
