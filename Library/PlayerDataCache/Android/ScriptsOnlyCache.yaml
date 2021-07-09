@@ -1,7 +1,16 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - GuideManager
+    - ImgTrack
+    - ImgTrackHierarchy
+    - LightweightBookHelper
+    - PlayAudioBook
+    - RotateValues
+    - SceneReset
     - ShadersControl
+    - SwitchPanels
+    - VolumetricLines.VolumetricLineBehavior
     Unity.RenderPipelines.Core.Runtime.dll:
     - UnityEngine.Rendering.UI.DebugUIHandlerBitField
     - UnityEngine.Rendering.UI.DebugUIHandlerButton
@@ -69,16 +78,17 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
     UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.EventTrigger
+    - UnityEngine.EventSystems.StandaloneInputModule
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.ContentSizeFitter
@@ -93,7 +103,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Toggle
     - UnityEngine.UI.VerticalLayoutGroup
   sceneClasses:
-    Assets/Scene6_Monster/Scenes/monsterModel.unity:
+    Assets/AllScenes.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -118,6 +128,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 74
       Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
     - Class: 83
       Script: {instanceID: 0}
     - Class: 89
@@ -131,109 +145,133 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
+      Script: {instanceID: 1788}
+    - Class: 114
       Script: {instanceID: 1790}
     - Class: 114
       Script: {instanceID: 1792}
     - Class: 114
       Script: {instanceID: 1794}
     - Class: 114
-      Script: {instanceID: 1796}
-    - Class: 114
-      Script: {instanceID: 1802}
-    - Class: 114
-      Script: {instanceID: 1914}
-    - Class: 114
       Script: {instanceID: 1946}
     - Class: 114
-      Script: {instanceID: 2506}
+      Script: {instanceID: 2058}
     - Class: 114
-      Script: {instanceID: 2596}
+      Script: {instanceID: 2090}
     - Class: 114
-      Script: {instanceID: 3262}
+      Script: {instanceID: 2650}
     - Class: 114
-      Script: {instanceID: 3332}
+      Script: {instanceID: 2740}
     - Class: 114
-      Script: {instanceID: 3388}
+      Script: {instanceID: 2952}
     - Class: 114
-      Script: {instanceID: 3408}
+      Script: {instanceID: 3406}
     - Class: 114
-      Script: {instanceID: 3412}
+      Script: {instanceID: 3476}
     - Class: 114
-      Script: {instanceID: 3466}
+      Script: {instanceID: 3532}
     - Class: 114
-      Script: {instanceID: 3574}
+      Script: {instanceID: 3552}
     - Class: 114
-      Script: {instanceID: 3698}
+      Script: {instanceID: 3556}
     - Class: 114
-      Script: {instanceID: 3780}
+      Script: {instanceID: 3610}
     - Class: 114
-      Script: {instanceID: 3986}
+      Script: {instanceID: 3718}
     - Class: 114
-      Script: {instanceID: 4098}
+      Script: {instanceID: 3842}
     - Class: 114
-      Script: {instanceID: 4246}
+      Script: {instanceID: 3924}
     - Class: 114
-      Script: {instanceID: 4360}
+      Script: {instanceID: 4130}
     - Class: 114
-      Script: {instanceID: 4376}
+      Script: {instanceID: 4240}
     - Class: 114
-      Script: {instanceID: 4674}
+      Script: {instanceID: 4242}
     - Class: 114
-      Script: {instanceID: 4970}
+      Script: {instanceID: 4390}
     - Class: 114
-      Script: {instanceID: 5138}
+      Script: {instanceID: 4504}
     - Class: 114
-      Script: {instanceID: 5152}
+      Script: {instanceID: 4520}
     - Class: 114
-      Script: {instanceID: 5212}
+      Script: {instanceID: 4818}
     - Class: 114
-      Script: {instanceID: 5298}
+      Script: {instanceID: 4894}
     - Class: 114
-      Script: {instanceID: 5400}
+      Script: {instanceID: 5114}
     - Class: 114
-      Script: {instanceID: 5402}
+      Script: {instanceID: 5282}
     - Class: 114
-      Script: {instanceID: 5422}
+      Script: {instanceID: 5296}
     - Class: 114
-      Script: {instanceID: 5662}
+      Script: {instanceID: 5356}
     - Class: 114
-      Script: {instanceID: 5770}
+      Script: {instanceID: 5442}
     - Class: 114
-      Script: {instanceID: 5790}
+      Script: {instanceID: 5544}
     - Class: 114
-      Script: {instanceID: 5892}
+      Script: {instanceID: 5546}
     - Class: 114
-      Script: {instanceID: 5964}
+      Script: {instanceID: 5566}
     - Class: 114
-      Script: {instanceID: 5970}
+      Script: {instanceID: 5666}
     - Class: 114
-      Script: {instanceID: 6058}
+      Script: {instanceID: 5806}
     - Class: 114
-      Script: {instanceID: 6092}
+      Script: {instanceID: 5910}
     - Class: 114
-      Script: {instanceID: 6128}
+      Script: {instanceID: 5914}
     - Class: 114
-      Script: {instanceID: 6216}
+      Script: {instanceID: 5934}
     - Class: 114
-      Script: {instanceID: 6322}
+      Script: {instanceID: 6036}
     - Class: 114
-      Script: {instanceID: 6450}
+      Script: {instanceID: 6108}
     - Class: 114
-      Script: {instanceID: 6488}
+      Script: {instanceID: 6114}
     - Class: 114
-      Script: {instanceID: 6560}
+      Script: {instanceID: 6202}
     - Class: 114
-      Script: {instanceID: 6604}
+      Script: {instanceID: 6236}
     - Class: 114
-      Script: {instanceID: 7120}
+      Script: {instanceID: 6272}
     - Class: 114
-      Script: {instanceID: 7172}
+      Script: {instanceID: 6348}
     - Class: 114
-      Script: {instanceID: 7474}
+      Script: {instanceID: 6360}
     - Class: 114
-      Script: {instanceID: 7604}
+      Script: {instanceID: 6466}
     - Class: 114
-      Script: {instanceID: 7698}
+      Script: {instanceID: 6594}
+    - Class: 114
+      Script: {instanceID: 6632}
+    - Class: 114
+      Script: {instanceID: 6704}
+    - Class: 114
+      Script: {instanceID: 6748}
+    - Class: 114
+      Script: {instanceID: 6778}
+    - Class: 114
+      Script: {instanceID: 6826}
+    - Class: 114
+      Script: {instanceID: 7002}
+    - Class: 114
+      Script: {instanceID: 7082}
+    - Class: 114
+      Script: {instanceID: 7264}
+    - Class: 114
+      Script: {instanceID: 7316}
+    - Class: 114
+      Script: {instanceID: 7390}
+    - Class: 114
+      Script: {instanceID: 7618}
+    - Class: 114
+      Script: {instanceID: 7748}
+    - Class: 114
+      Script: {instanceID: 7842}
+    - Class: 114
+      Script: {instanceID: 183992}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -244,6 +282,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 196
       Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
     - Class: 212
       Script: {instanceID: 0}
     - Class: 213
@@ -253,6 +295,10 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
+      Script: {instanceID: 0}
+    - Class: 258
+      Script: {instanceID: 0}
+    - Class: 850595691
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -1575,7 +1621,13 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 78efea29fba7e33a488ea0d730884145
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ImgTrackHierarchy
   platform: 13
   scenePathNames:
-  - Assets/Scene6_Monster/Scenes/monsterModel.unity
-  playerPath: C:/SapyXrea/xrsapy_sunny/XreaUnityArUrp/monstermodel.apk
+  - Assets/AllScenes.unity
+  playerPath: D:/XreaUnityArUrp/allScenes0710.apk

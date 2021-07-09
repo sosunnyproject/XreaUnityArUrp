@@ -24,14 +24,12 @@ public class ImgTrack : MonoBehaviour
     private void Awake()
     {
         Debug.Log("Awake");
-        //¹æ¹ý2
         for (int i = 0; i < _TargetList2FromHierarchy.Count; i++) {
             _DicObject2.Add(_TargetList2FromHierarchy[i].name, _TargetList2FromHierarchy[i]);
         }
         Debug.Log(_ARTImgMng);
         //Debug.Log(_TargetList);
         //Debug.Log(_TargetList2);
-
         //StartCoroutine(co_LoadDelay());
     }
 
@@ -81,12 +79,15 @@ public class ImgTrack : MonoBehaviour
     }
 
     void UpdateImg(ARTrackedImage img) {
-        //method 1: appear Prefab according to the image
+        //method 1: appear Prefab according to the TrackedImage
         if (_DicObject.ContainsKey(img.referenceImage.name)) {
 
         }
+
         // if targeted Obj, show the object
-        else {
+        // ????: REMOVE OBJ METHOD NEEDED
+        else
+        {
 
             GameObject target = null;
 
@@ -118,8 +119,6 @@ public class ImgTrack : MonoBehaviour
                 
             }
         }
-        // remove method needed
-
 
         //// method 2: deactivate all prefabs, only activate according Prefab
         //if (_DicObject2.ContainsKey(img.referenceImage.name)) {
