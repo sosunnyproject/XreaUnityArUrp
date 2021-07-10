@@ -14,9 +14,12 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scene1/Intro.unity
     guid: 55cebdd40c4eaa648bdc77cab3621ca9
+  - enabled: 1
+    path: Assets/AllScenes.unity
+    guid: 45bb1dc47d9471f47ae48cc7f7cda5f8
   - enabled: 0
     path: Assets/Scene2_Book/scene2Book.unity
     guid: 13e255687e56493439a2a840b8d3d461
@@ -24,14 +27,11 @@ EditorBuildSettings:
     path: Assets/Scene3_Media/scene3Media.unity
     guid: 0d1bd699a8bbe9c4c82dacb9f367aaa4
   - enabled: 0
-    path: Assets/Scene6_Monster/monsterModel.unity
-    guid: 572dcedb6ed06584cb7049da46df1019
-  - enabled: 0
     path: Assets/Scene4_Carpet/scene4Play.unity
     guid: 53fe93f65e64a4b4ea4b611bed152617
-  - enabled: 1
-    path: Assets/AllScenes.unity
-    guid: 45bb1dc47d9471f47ae48cc7f7cda5f8
+  - enabled: 0
+    path: Assets/Scene6_Monster/monsterModel.unity
+    guid: 572dcedb6ed06584cb7049da46df1019
   - enabled: 0
     path: Assets/TestResources/Scenes/MultipleTrackTest.unity
     guid: 340caef416a4a0b4ca8cbcfcb9cd2c7e

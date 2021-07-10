@@ -12,7 +12,6 @@ public class UIManager : MonoBehaviour
     public GameObject scene_1;
     public GameObject scene_2_pre;
    // public GameObject scene_2;
-    public GameObject TopButtons;
     public GameObject Scene1EventSystem;
     public GameObject Scene1Canvas;
     public GameObject Scene1Camera;
@@ -59,7 +58,6 @@ public class UIManager : MonoBehaviour
     {
         Debug.Log("GoTo Next Scene: 2");
         scene_2_pre.SetActive(false);
-        TopButtons.SetActive(false);
         Scene1Camera.SetActive(false);
         Scene1Canvas.SetActive(false);
         Scene1EventSystem.SetActive(false);
