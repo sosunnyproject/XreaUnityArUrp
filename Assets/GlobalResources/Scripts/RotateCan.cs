@@ -17,6 +17,7 @@ public class RotateCan : MonoBehaviour
     float yTrans = 0.0f;
     float zTrans = 0.0f;
 
+    public float baseScale = 1.0f;
     public float sclOffset = 1.0f;
     float scaleChange = 1.0f;
     public float scaleTime = 0.1f;
@@ -38,7 +39,7 @@ public class RotateCan : MonoBehaviour
         yTrans = this.y + (baseVal * offsetY);
         zTrans = this.z + (baseVal * offsetZ);
 
-        scaleChange = 1 + Mathf.Sin(Time.frameCount * scaleTime) * sclOffset;
+        scaleChange = baseScale + Mathf.Sin(Time.frameCount * scaleTime) * sclOffset;
 
         this.transform.rotation = Quaternion.Euler(xTrans, yTrans, zTrans);
         this.transform.localScale = new Vector3(scaleChange, scaleChange, scaleChange);
