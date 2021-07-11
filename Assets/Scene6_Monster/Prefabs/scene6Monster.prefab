@@ -3838,6 +3838,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1841095184300145156}
   - component: {fileID: 1841095184300145347}
+  - component: {fileID: 8591176295018924003}
   m_Layer: 0
   m_Name: COCOON
   m_TagString: Untagged
@@ -3915,6 +3916,20 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.000000059604645, y: 0.020216644, z: 1.7530258}
     m_Extent: {x: 0.5520356, y: 0.93146676, z: 1.5180678}
   m_DirtyAABB: 0
+--- !u!114 &8591176295018924003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1841095184300145653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea760760e9dca484a82f27f6bfdb9916, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  matAfterTouch: {fileID: 2100000, guid: 800d98806f41b49438b8e0d8c04c6bb0, type: 2}
+  Cocoon: {fileID: 1841095184300145653}
 --- !u!1 &1841095184300145654
 GameObject:
   m_ObjectHideFlags: 0
