@@ -138,14 +138,14 @@ Material:
     m_Colors:
     - Vector2_D0FA5062: {r: 10, g: 10, b: 1, a: 1}
     - _BandAxis: {r: 1, g: 0, b: 0, a: 0}
-    - _BaseColor: {r: 0.90309906, g: 0, b: 1, a: 1}
+    - _BaseColor: {r: 0.9347947, g: 0.33490568, b: 1, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _GlitchEmissionColor: {r: 1, g: 1, b: 1, a: 0}
+    - _EmissionColor: {r: 0.49056602, g: 0.49056602, b: 0.49056602, a: 0.23921569}
+    - _GlitchEmissionColor: {r: 0.12971699, g: 0.14982736, b: 0.5, a: 0}
     - _NormalTilingOffset: {r: 1, g: 1, b: 0, a: 0}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
     - _SphereShape: {r: -0.5, g: 0.5, b: 0.75, a: 0}
-    - _TilingOffset: {r: 0.1, g: 0.1, b: 0, a: 0}
+    - _TilingOffset: {r: 1, g: 1, b: 0, a: 0}
     - _color_emission: {r: 3.5648696, g: 0, b: 2.7427142, a: 0}
     - _color_texture: {r: 1, g: 1, b: 1, a: 0.65882355}
   m_BuildTextureStacks: []

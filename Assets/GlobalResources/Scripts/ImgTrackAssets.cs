@@ -97,6 +97,14 @@ public class ImgTrackAssets : MonoBehaviour
                     GameObject Obj = Instantiate(target, img.transform.position, rotation);
                     _DicObject.Add(img.referenceImage.name, Obj);
                 }
+                if (img.referenceImage.name == "scene5Drink")
+                {
+                    debugLog = img.referenceImage.name;
+
+                    Quaternion rotation = Quaternion.Euler(new Vector3(img.transform.rotation.eulerAngles.x, img.transform.rotation.eulerAngles.y, img.transform.rotation.eulerAngles.z));
+                    GameObject Obj = Instantiate(target, img.transform.position, rotation);
+                    _DicObject.Add(img.referenceImage.name, Obj);
+                }
                 else
                 {
                     debugLog = img.referenceImage.name;

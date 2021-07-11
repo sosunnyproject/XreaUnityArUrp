@@ -10,6 +10,7 @@ public class GuideManager : MonoBehaviour
     public GameObject scene4;
     public GameObject scene5;
     public GameObject scene6;
+    public GameObject imgDownload;
 
     // Start is called before the first frame update
     void Start()
@@ -46,8 +47,14 @@ public class GuideManager : MonoBehaviour
         }
         else if (scene6.activeSelf)
         {
-            mapImage.SetActive(true);
+            imgDownload.SetActive(true);
             scene6.SetActive(false);
+        }
+
+        else if (imgDownload.activeSelf)
+        {
+            mapImage.SetActive(true);
+            imgDownload.SetActive(false);
         }
     }
 

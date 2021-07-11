@@ -184,7 +184,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SerializedLibrary: {fileID: 11400000, guid: e70abfbfd7f497a45a39de3ab7ae3523, type: 2}
   m_MaxNumberOfMovingImages: 1
-  m_TrackedImagePrefab: {fileID: 3339173099166288004, guid: dbf5584b895e01f40a1098ac1e6dd5a8, type: 3}
+  m_TrackedImagePrefab: {fileID: 3141251044135933340, guid: d126dc7666af3dc40a7622e2c4987343, type: 3}
 --- !u!1001 &177553480
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -648,6 +648,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ResetButton
       objectReference: {fileID: 0}
+    - target: {fileID: 1400260353585684723, guid: dd4d820f87ffd1c48990699fb3773b90, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3200824660234877794, guid: dd4d820f87ffd1c48990699fb3773b90, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -860,6 +864,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac9db4ee9b0cb0e4487a9946c06950f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delayOffset: 2
 --- !u!4 &1667562630
 Transform:
   m_ObjectHideFlags: 0
