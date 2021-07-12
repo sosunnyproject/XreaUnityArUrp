@@ -40,12 +40,12 @@ public class SwitchPanels : MonoBehaviour
     public void qrBtnPressed()
     {
         Debug.Log("Pressed QR Btn");
-        focusPanel.SetActive(true);
+        //focusPanel.SetActive(true);
     }
     public void qrBtnReleased()
     {
         Debug.Log("Released QR Btn");
-        focusPanel.SetActive(false);
+        //focusPanel.SetActive(false);
     }
 
     // Update is called once per frame
