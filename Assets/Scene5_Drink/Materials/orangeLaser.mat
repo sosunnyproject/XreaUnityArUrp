@@ -92,7 +92,7 @@ Material:
     - _GlossyReflections: 0
     - _LightSaberFactor: 0.959
     - _LineScale: 0.07
-    - _LineWidth: 9.6
+    - _LineWidth: 15.4
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
@@ -108,7 +108,7 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 0.9726492, g: 1, b: 0, a: 1}
+    - _Color: {r: 0.35458565, g: 0, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
   m_BuildTextureStacks: []

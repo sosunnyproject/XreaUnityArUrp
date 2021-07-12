@@ -90,9 +90,9 @@ Material:
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _LightSaberFactor: 0.727
+    - _LightSaberFactor: 0.958
     - _LineScale: 0.08
-    - _LineWidth: 20
+    - _LineWidth: 11.8
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
