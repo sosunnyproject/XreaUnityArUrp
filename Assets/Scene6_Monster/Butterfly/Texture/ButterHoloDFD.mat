@@ -101,7 +101,7 @@ Material:
     - _Const5: 2.45
     - _Cull: 2
     - _Cutoff: 0.5
-    - _DepthPower: 3
+    - _DepthPower: 8.53
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
@@ -111,20 +111,20 @@ Material:
     - _GlossyReflections: 0
     - _Invert1: 0
     - _Metallic: 0
-    - _ObjectHigh: 1.2
-    - _ObjectLow: -0.8
+    - _ObjectHigh: 8.29
+    - _ObjectLow: 14.87
     - _OcclusionStrength: 1
     - _Parallax: 0.005
     - _Power: 1
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _Scale: 1
+    - _Scale: 6.98
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _Surface: 0
-    - _UV: 1
+    - _UV: 10.26
     - _VertexMovement: 0
     - _WorkflowMode: 1
     - _ZWrite: 1
@@ -132,7 +132,7 @@ Material:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _FirstColor: {r: 0.6901961, g: 0.6745098, b: 2.9960785, a: 0}
-    - _SecondColor: {r: 0.02148456, g: 0, b: 3.5648696, a: 0}
+    - _FirstColor: {r: 0.6779553, g: 0.9817498, b: 3.1939223, a: 0}
+    - _SecondColor: {r: 0.42654815, g: 2.0741272, b: 4.759381, a: 0}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
   m_BuildTextureStacks: []

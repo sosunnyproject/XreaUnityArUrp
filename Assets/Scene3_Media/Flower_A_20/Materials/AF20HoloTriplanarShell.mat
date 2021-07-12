@@ -105,7 +105,7 @@ Material:
     - _Invert: 0
     - _Metallic: 0
     - _NoisePower: 0.1
-    - _NoiseTiling: 7
+    - _NoiseTiling: 14.45
     - _OcclusionStrength: 1
     - _Parallax: 0.005
     - _Power: 1
