@@ -18,7 +18,7 @@ public class TouchAnimation : MonoBehaviour
     }
     void OnGUI()
     {
-        myLog = GUI.TextArea(new Rect(500, 0, 100, 100), debugLog);
+        myLog = GUI.TextArea(new Rect(700, 0, 100, 100), debugLog);
     }
     // Update is called once per frame
     void Update()
@@ -26,10 +26,19 @@ public class TouchAnimation : MonoBehaviour
         if (Input.touchCount > 0)
         {
             Touch touch = Input.GetTouch(0);
-            debugLog = "" + touch.phase;
+            debugLog = "touch true";
             animator.SetBool("TouchBool", true);
-            //animator.runtimeAnimatorController = Resources.Load<RuntimeAnimatorController>("afterTouch");
+            StartCoroutine(touchFalse());
 
+            //animator.runtimeAnimatorController = Resources.Load<RuntimeAnimatorController>("afterTouch");
         }
+    }
+
+    private IEnumerator touchFalse()
+    {
+        debugLog = "wait10sec";
+        yield return new WaitForSeconds(10);
+        debugLog = "touchFalse";
+        animator.SetBool("TouchBool", false);
     }
 }
