@@ -27,8 +27,8 @@ public class TouchAnimation : MonoBehaviour
         {
             Touch touch = Input.GetTouch(0);
             debugLog = "" + touch.phase;
-         
-            animator.runtimeAnimatorController = Resources.Load<RuntimeAnimatorController>("afterTouch");
+            animator.SetBool("TouchBool", true);
+            //animator.runtimeAnimatorController = Resources.Load<RuntimeAnimatorController>("afterTouch");
 
         }
     }

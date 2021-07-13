@@ -8,11 +8,15 @@ public class TouchMaterial : MonoBehaviour
     private string debugLog;
     public Material matAfterTouch;
     public GameObject Cocoon;
+    public ParticleSystem trackParticles;
 
+    void Awake()
+    {
+        trackParticles.Stop();
+    }
     // Start is called before the first frame update
     void Start()
     {
-        
     }
 
     void OnGUI()
@@ -28,6 +32,7 @@ public class TouchMaterial : MonoBehaviour
         {
             Touch touch = Input.GetTouch(0);
             debugLog = "" + touch.phase;
+            trackParticles.Play();
             Cocoon.GetComponent<Renderer>().material = matAfterTouch;
         }
     }
