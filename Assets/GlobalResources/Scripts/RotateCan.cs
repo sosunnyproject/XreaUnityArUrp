@@ -34,12 +34,12 @@ public class RotateCan : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        baseVal = Mathf.Cos(Time.frameCount * speed) * 360;
+        baseVal = Mathf.Cos(Time.unscaledTime * speed) * 360;
         xTrans = this.x + (baseVal * offsetX);
         yTrans = this.y + (baseVal * offsetY);
         zTrans = this.z + (baseVal * offsetZ);
 
-        scaleChange = baseScale + Mathf.Sin(Time.frameCount * scaleTime) * sclOffset;
+        scaleChange = baseScale + Mathf.Sin(Time.unscaledTime * scaleTime) * sclOffset;
 
         this.transform.rotation = Quaternion.Euler(xTrans, yTrans, zTrans);
         this.transform.localScale = new Vector3(scaleChange, scaleChange, scaleChange);

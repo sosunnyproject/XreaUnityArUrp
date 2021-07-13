@@ -14,10 +14,10 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scene1/Intro.unity
     guid: 55cebdd40c4eaa648bdc77cab3621ca9
-  - enabled: 1
+  - enabled: 0
     path: Assets/AllScenes.unity
     guid: 45bb1dc47d9471f47ae48cc7f7cda5f8
   - enabled: 0
@@ -41,7 +41,7 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scene5_Drink/scene5Drink.unity
     guid: 9a59be71f0a3d5f4abeb94dc20f371e9
   m_configObjects:
