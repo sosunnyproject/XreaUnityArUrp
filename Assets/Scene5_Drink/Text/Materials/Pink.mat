@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-2394639695147766794
+--- !u!114 &-7731371023484760654
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,10 +20,10 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: canGlitchMat
-  m_Shader: {fileID: -6465566751694194690, guid: 3a3868f7e7934624598aa48da2bfb653, type: 3}
+  m_Name: Pink
+  m_Shader: {fileID: 4800000, guid: 9c01db3cd0e2193489181f3ec26679ca, type: 3}
   m_ShaderKeywords: 
-  m_LightmapFlags: 4
+  m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -32,8 +32,12 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _BaseColorMap:
-        m_Texture: {fileID: 2800000, guid: 4ff867a626526ce4dada35c8d2482f3a, type: 3}
+    - _AO:
+        m_Texture: {fileID: 2800000, guid: bf7b4562536da5e4996c7fdf09c329e0, type: 3}
+        m_Scale: {x: 7.18, y: 5.78}
+        m_Offset: {x: 0, y: 0}
+    - _Albedo:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:
@@ -56,13 +60,17 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Emission:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _EmissionMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Hologram1:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
+        m_Texture: {fileID: 2800000, guid: 89961e360cf55544683158511f913ebf, type: 3}
+        m_Scale: {x: 2, y: 0}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 0}
@@ -72,17 +80,13 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _MetallicMap:
-        m_Texture: {fileID: 2800000, guid: 2373fc6231b21c748aa280a5ea7c29d2, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Noise:
+    - _Noises:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _NormalMap:
-        m_Texture: {fileID: 2800000, guid: 0bd28940b4979c34ebe3ef403b4e436b, type: 3}
-        m_Scale: {x: 1, y: 1}
+    - _Normal:
+        m_Texture: {fileID: 2800000, guid: 89961e360cf55544683158511f913ebf, type: 3}
+        m_Scale: {x: 74.8, y: 4.81}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
         m_Texture: {fileID: 0}
@@ -93,10 +97,6 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Texture:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -117,38 +117,52 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Alpha: 1
     - _AlphaClip: 0
-    - _BandAxisLength: 1
-    - _BandCenterLength: 1
-    - _BandSpeed: 1
-    - _BandTransitionLength: 0.1
     - _Blend: 0
+    - _BlendOp: 0
     - _BumpScale: 1
-    - _CellDivisionAmount: 0.08
+    - _CameraFadingEnabled: 0
+    - _CameraFarFadeDistance: 2
+    - _CameraNearFadeDistance: 1
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
     - _Cull: 2
     - _Cutoff: 0.5
-    - _DeformationStrength: 0.09
+    - _DarkAreaPower: 1
+    - _DarkAreaScale: 0
+    - _DepthPower: 0
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
+    - _DissolveColorPower: 0.02
+    - _DissolvePower: 0.509
+    - _DissolveSquarePower: 4.36
+    - _DissolveSquareScale: 0.406
+    - _DissolveTiling: 1
+    - _DistortionBlend: 0.5
+    - _DistortionEnabled: 0
+    - _DistortionStrength: 1
+    - _DistortionStrengthScaled: 0
     - _DstBlend: 0
+    - _EmissionEnabled: 0
     - _EnvironmentReflections: 1
-    - _FillPercent: 0
+    - _FirstTextureHight: 0
+    - _FirstTextureScale: 3.97
+    - _FirstTextureTiling: 0
+    - _FlipbookMode: 0
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
     - _Invert: 0
     - _Invert1: 0
-    - _InvertAlpha: 0
+    - _LightingEnabled: 1
     - _Metallic: 0
-    - _MetallicStrength: 0.8
-    - _NoisePower: 0
-    - _NoiseSpeed: 100
-    - _NoiseTiling: 1
-    - _NormalStrength: 2.5
+    - _Mode: 0
+    - _NormalPower: 0
+    - _ObjectHigh: 0
+    - _ObjectLow: 0
     - _OcclusionStrength: 1
+    - _OpacityPower: 1
+    - _OpacityScale: 0.01
     - _Parallax: 0.005
     - _Power: 1
     - _Power1: 1
@@ -156,31 +170,33 @@ Material:
     - _ReceiveShadows: 1
     - _Scale: 1
     - _Scale1: 1
-    - _Smoothness: 0.5
+    - _SecondTextureHight: 0
+    - _SecondTextureScale: 0.1
+    - _SecondTextureTiling: 0
+    - _Smoothness: 0
     - _SmoothnessTextureChannel: 0
+    - _SoftParticlesEnabled: 0
+    - _SoftParticlesFarFadeDistance: 1
+    - _SoftParticlesNearFadeDistance: 0
     - _SpecularHighlights: 1
-    - _SphereRadius: 4
-    - _SphereSpeed: 0.1
     - _SrcBlend: 1
     - _Surface: 0
-    - _UV: 1
     - _UV1: 1
-    - _UseAlphaClipping: 0
-    - _UseFillPercent: 0
-    - _VertexMovement1: 0.02
+    - _VertexMovement1: -0.01
     - _WorkflowMode: 1
     - _ZWrite: 1
+    - __dirty: 1
     m_Colors:
-    - _BandAxis: {r: 1, g: 0, b: 0, a: 0}
+    - _AlbedoColor: {r: 1, g: 1, b: 1, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _CameraFadeParams: {r: 0, g: Infinity, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _EmissionColor1: {r: 0, g: 0, b: 0, a: 0}
-    - _FirstColor: {r: 0, g: 0, b: 0, a: 0}
-    - _GlitchEmissionColor: {r: 1.741101, g: 0.013655695, b: 1.071972, a: 0}
-    - _NormalTilingOffset: {r: 1, g: 1, b: 0, a: 0}
-    - _SecondColor: {r: 0, g: 0, b: 0, a: 0}
+    - _DissolveColor: {r: 0.180188, g: 4.594794, b: 0, a: 0}
+    - _EmissionColor: {r: 0.735849, g: 0.03818085, b: 0.03818085, a: 1}
+    - _EmissionColor1: {r: 0.82775694, g: 0.5613208, b: 1, a: 0}
+    - _FirstTextureColor: {r: 0, g: 0.07736176, b: 0.8773585, a: 0}
+    - _SecondTextureColor: {r: 0, g: 0.07736176, b: 0.8773585, a: 0}
+    - _SoftParticleFadeParams: {r: 0, g: 0, b: 0, a: 0}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
-    - _SphereShape: {r: -0.5, g: 0.5, b: 0.75, a: 0}
-    - _TilingOffset: {r: 1, g: 1, b: 0, a: 0}
+    - _VertexColor: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
