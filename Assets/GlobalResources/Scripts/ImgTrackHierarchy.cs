@@ -68,12 +68,12 @@ public class ImgTrackHierarchy : MonoBehaviour
 
     void OnGUI()
     {
-        myLog = GUI.TextArea(new Rect(500, 0, 100, 100), debugLog);
+        //myLog = GUI.TextArea(new Rect(500, 0, 100, 100), debugLog);
     }
 
     void UpdateImg(ARTrackedImage img)
     {
-        trackParticles.Play();
+        //trackParticles.Play();
         focusGridCanvas.SetActive(false);
 
         // METHOD 2: deactivate all prefabs, only activate according Prefab
