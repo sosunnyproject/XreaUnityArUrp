@@ -15,12 +15,12 @@ public class ImgTrackHierarchy : MonoBehaviour
     public List<GameObject> _TargetList2FromHierarchy;
 
     public GameObject focusGridCanvas;
-    public ParticleSystem trackParticles;
+    //public ParticleSystem trackParticles;
 
     private void Awake()
     {
         focusGridCanvas.SetActive(true);
-        trackParticles.Stop();
+        //trackParticles.Stop();
 
         Debug.Log("Awake");
         for (int i = 0; i < _TargetList2FromHierarchy.Count; i++)

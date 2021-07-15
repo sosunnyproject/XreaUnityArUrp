@@ -282,7 +282,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: ebd8685d22c2878439919c80472e77b1, type: 3}
+  m_audioClip: {fileID: 8300000, guid: a61074a1d07d00049add6c2ea6f9b54b, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.5
   m_Pitch: 1
@@ -627,10 +627,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lightweightBookHelper: {fileID: 413522484726743588}
   AudioList:
-  - {fileID: 8300000, guid: 8f35840ec955df041b32439a42f0e7b3, type: 3}
-  - {fileID: 8300000, guid: 2dc5f57b128f59848b4f1063bedb49b6, type: 3}
-  - {fileID: 8300000, guid: 1acbc9e21be41d245b5a7ce4db9ca9e3, type: 3}
-  - {fileID: 8300000, guid: fcaa25d621ac92f43b724aeb3864e2ea, type: 3}
+  - {fileID: 8300000, guid: 682a6c4c783d053498ceb894a0881774, type: 3}
+  - {fileID: 8300000, guid: b8904ae7baf04ff40b56a436fa05a6f1, type: 3}
+  - {fileID: 8300000, guid: 097f6513ae5b2f245b30a61c1ee21a14, type: 3}
+  - {fileID: 8300000, guid: 502a11faec1586f4b8e190a311a97de5, type: 3}
   audioSource: {fileID: 413522484726743599}
 --- !u!1 &413522484726743577
 GameObject:
