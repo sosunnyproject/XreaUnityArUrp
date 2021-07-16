@@ -26,7 +26,7 @@ public class TouchParticles : MonoBehaviour
     }
     void OnGUI()
     {
-        myLog = GUI.TextArea(new Rect(700, 0, 100, 100), debugLog);
+        //myLog = GUI.TextArea(new Rect(700, 0, 100, 100), debugLog);
     }
     // Update is called once per frame
     void Update()
