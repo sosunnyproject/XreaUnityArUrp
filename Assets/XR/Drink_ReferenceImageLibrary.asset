@@ -25,13 +25,3 @@ MonoBehaviour:
     m_SpecifySize: 1
     m_Name: scene5Drink
     m_Texture: {fileID: 0}
-  - m_SerializedGuid:
-      m_GuidLow: 5676667900416585644
-      m_GuidHigh: 8329807205041712785
-    m_SerializedTextureGuid:
-      m_GuidLow: 11170187087649164156
-      m_GuidHigh: 14321371534740241291
-    m_Size: {x: 0, y: 0}
-    m_SpecifySize: 0
-    m_Name: scene2Book
-    m_Texture: {fileID: 0}

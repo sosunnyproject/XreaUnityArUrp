@@ -2,7 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.ARFoundation;
-
+using UnityEngine.XR.ARSubsystems;
+using UnityEngine.XR.ARKit;
 public class ImgTrackHierarchy : MonoBehaviour
 {
     static string myLog = "";
@@ -10,7 +11,7 @@ public class ImgTrackHierarchy : MonoBehaviour
 
     public ARTrackedImageManager _ARTImgMng;
 
-    //¹æ¹ý2
+    //ï¿½ï¿½ï¿½2
     private Dictionary<string, GameObject> _DicObject2 = new Dictionary<string, GameObject>();
     public List<GameObject> _TargetList2FromHierarchy;
 
@@ -90,7 +91,7 @@ public class ImgTrackHierarchy : MonoBehaviour
 
                 if ((currPrefabName == "scene3Media") || (currPrefabName == "scene4Play") || (currPrefabName == "scene6Monster"))
                 {
-                    Quaternion rotation = Quaternion.Euler(new Vector3(img.transform.rotation.eulerAngles.x - 90, img.transform.rotation.eulerAngles.y, img.transform.rotation.eulerAngles.z));
+                    Quaternion rotation = Quaternion.Euler(new Vector3(img.transform.rotation.eulerAngles.x, img.transform.rotation.eulerAngles.y, img.transform.rotation.eulerAngles.z));
                     _DicObject2[currPrefabName].transform.position = img.transform.position;
                     _DicObject2[currPrefabName].transform.rotation = rotation;
 

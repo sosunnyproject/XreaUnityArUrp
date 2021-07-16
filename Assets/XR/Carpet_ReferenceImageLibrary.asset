@@ -25,33 +25,3 @@ MonoBehaviour:
     m_SpecifySize: 1
     m_Name: scene4Play
     m_Texture: {fileID: 0}
-  - m_SerializedGuid:
-      m_GuidLow: 4614416947699351774
-      m_GuidHigh: 13576275541936948618
-    m_SerializedTextureGuid:
-      m_GuidLow: 7855465867102379463
-      m_GuidHigh: 10617623708076672105
-    m_Size: {x: 0, y: 0}
-    m_SpecifySize: 0
-    m_Name: scene5Drink
-    m_Texture: {fileID: 0}
-  - m_SerializedGuid:
-      m_GuidLow: 5073529738894426243
-      m_GuidHigh: 17194661644123721385
-    m_SerializedTextureGuid:
-      m_GuidLow: 10053379281285048900
-      m_GuidHigh: 4094861963533150008
-    m_Size: {x: 0, y: 0}
-    m_SpecifySize: 0
-    m_Name: scene3Media
-    m_Texture: {fileID: 0}
-  - m_SerializedGuid:
-      m_GuidLow: 5542266911829746552
-      m_GuidHigh: 3111040124759390127
-    m_SerializedTextureGuid:
-      m_GuidLow: 18394009698465145552
-      m_GuidHigh: 6540718626566921576
-    m_Size: {x: 0, y: 0}
-    m_SpecifySize: 0
-    m_Name: scene5Drink
-    m_Texture: {fileID: 0}

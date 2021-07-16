@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.ARFoundation;
 using UnityEngine.SceneManagement;
-
+using UnityEngine.XR.ARSubsystems;
+using UnityEngine.XR.ARKit;
 public class SceneReset : MonoBehaviour
 {
     Scene scene;
