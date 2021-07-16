@@ -41,7 +41,7 @@ public class TouchParticles : MonoBehaviour
             touch2.Play();
             touch3.Play();
             touch4.Play();
-            StartCoroutine(touchFalse());
+            //StartCoroutine(touchFalse());
         }
     }
 

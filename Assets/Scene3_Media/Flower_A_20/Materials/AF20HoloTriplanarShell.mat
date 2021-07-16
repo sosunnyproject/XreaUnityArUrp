@@ -104,11 +104,11 @@ Material:
     - _GlossyReflections: 0
     - _Invert: 0
     - _Metallic: 0
-    - _NoisePower: 0.1
-    - _NoiseTiling: 14.45
+    - _NoisePower: -0.14
+    - _NoiseTiling: -0.71
     - _OcclusionStrength: 1
     - _Parallax: 0.005
-    - _Power: 1
+    - _Power: 0.18
     - _QueueOffset: 0
     - _ReceiveShadows: 1
     - _Scale: 1

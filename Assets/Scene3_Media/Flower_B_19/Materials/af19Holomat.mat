@@ -135,7 +135,7 @@ Material:
     - _Invert: 1
     - _Metallic: 0
     - _NoisePower: 1.1
-    - _NoiseTiling: 22.91
+    - _NoiseTiling: -0.43
     - _NormalPower: 0
     - _ObjectHigh: 0
     - _ObjectLow: 0
