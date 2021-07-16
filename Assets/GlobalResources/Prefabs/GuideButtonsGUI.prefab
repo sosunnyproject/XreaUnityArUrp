@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7707137515670344549}
   - component: {fileID: 7656811154414124441}
   m_Layer: 5
-  m_Name: Scene3
+  m_Name: Scene2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -34,8 +34,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 25}
-  m_SizeDelta: {x: -200, y: -210}
+  m_AnchoredPosition: {x: 0, y: 10}
+  m_SizeDelta: {x: -160, y: -180}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7707137515670344549
 CanvasRenderer:
@@ -67,10 +67,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: b9d945785bf457241800d5ec47347c6c, type: 3}
-    m_FontSize: 24
+    m_FontSize: 18
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 2
+    m_MinSize: 0
     m_MaxSize: 28
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -78,13 +78,15 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Scene3\n1. \uAE30\uAE30\uB97C \uC218\uD3C9\uC73C\uB85C \uB4E0 \uCC44 \uAE30\uC6B8\uC774\uC9C0
-    \uC54A\uACE0, \n\uB9C8\uCEE4\uB97C \uC544\uB798\uBD80\uD130 \uC704\uB85C \uCC9C\uCC9C\uD788
-    \uC778\uC2DD\uD558\uC138\uC694.\n2. \uD654\uBA74 \uC18D \uBB3C\uCCB4\uAC00 \uC0AC\uB77C\uC9C0\uAC70\uB098
-    \uC704\uCE58\uAC00 \uC774\uC0C1\uD558\uB2E4\uBA74,\nQR \uC778\uC2DD\uD558\uAE30
-    \uBC84\uD2BC\uC744 \uD074\uB9AD\uD558\uACE0, \uB2E4\uC2DC \uB9C8\uCEE4\uB97C
-    \uC778\uC2DD\uD574\uC8FC\uC138\uC694. \n3. \uC624\uB958 \uBC1C\uC0DD \uC2DC,
-    \uC571\uC744 \uC7AC\uC2DC\uC791\uD558\uAC70\uB098 \uB3C4\uC2A8\uD2B8\uB97C \uCC3E\uC544\uC8FC\uC138\uC694."
+  m_Text: "Scene 2. The Flowers\n\uC18C\uC15C\uBBF8\uB514\uC5B4\uC758 \uC591\uAC00\uC801\uC778
+    \uBAA8\uC2B5\uC740 \uB9C8\uCE58 \uADF8\uB9AC\uC2A4 \uC2E0\uD654\uC758 \uC138\uC774\uB80C
+    \uAC19\uB2E4.\n\uC774 \uC7A5\uBA74\uC5D0\uC11C\uB294 \uC18C\uC15C\uBBF8\uB514\uC5B4
+    \uAE30\uC220\uC744 \uC678\uD615\uC740 \uD654\uB824\uD558\uC9C0\uB9CC \n\uADF8
+    \uC774\uBA74\uC740 \uCE58\uBA85\uC801\uC778 \u2018\uC2DD\uC778 \uAF43\u2019\uC73C\uB85C
+    \uD615\uC0C1\uD654\uD55C\uB2E4. \n\uC774\uB7EC\uD55C \uB9E5\uB77D\uC744 \uBCF4\uB2E4
+    \uC9C1\uAD00\uC801\uC73C\uB85C \uC804\uB2EC\uD558\uACE0\uC790  \u2018\uBBF8\uB514\uC5B4\uB8F8\u2019\uC5D0
+    \n\uC99D\uAC15\uC2DC\uCF1C\uC11C \uD604\uB300\uC801 \uC758\uBBF8\uC758 SNS \uAD34\uBB3C\uC744
+    \uD0C4\uC0DD\uC2DC\uD0A8\uB2E4.  "
 --- !u!1 &777534287144508382
 GameObject:
   m_ObjectHideFlags: 0
@@ -1398,7 +1400,7 @@ GameObject:
   - component: {fileID: 1123555930309245880}
   - component: {fileID: 6778839196533128683}
   m_Layer: 5
-  m_Name: Scene6
+  m_Name: Scene5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1420,8 +1422,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 25}
-  m_SizeDelta: {x: -200, y: -210}
+  m_AnchoredPosition: {x: 0, y: 10}
+  m_SizeDelta: {x: -160, y: -180}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1123555930309245880
 CanvasRenderer:
@@ -1453,10 +1455,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: b9d945785bf457241800d5ec47347c6c, type: 3}
-    m_FontSize: 24
+    m_FontSize: 18
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 2
+    m_MinSize: 1
     m_MaxSize: 28
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -1464,13 +1466,18 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Scene6\n1. \uAE30\uAE30\uB97C \uC218\uD3C9\uC73C\uB85C \uB4E0 \uCC44 \uAE30\uC6B8\uC774\uC9C0
-    \uC54A\uACE0, \n\uB9C8\uCEE4\uB97C \uC544\uB798\uBD80\uD130 \uC704\uB85C \uCC9C\uCC9C\uD788
-    \uC778\uC2DD\uD558\uC138\uC694.\n2. \uD654\uBA74 \uC18D \uBB3C\uCCB4\uAC00 \uC0AC\uB77C\uC9C0\uAC70\uB098
-    \uC704\uCE58\uAC00 \uC774\uC0C1\uD558\uB2E4\uBA74,\nQR \uC778\uC2DD\uD558\uAE30
-    \uBC84\uD2BC\uC744 \uD074\uB9AD\uD558\uACE0, \uB2E4\uC2DC \uB9C8\uCEE4\uB97C
-    \uC778\uC2DD\uD574\uC8FC\uC138\uC694. \n3. \uC624\uB958 \uBC1C\uC0DD \uC2DC,
-    \uC571\uC744 \uC7AC\uC2DC\uC791\uD558\uAC70\uB098 \uB3C4\uC2A8\uD2B8\uB97C \uCC3E\uC544\uC8FC\uC138\uC694."
+  m_Text: "Scene 5. The Monster\n\uC6B0\uB9AC\uAC00 \uC0C1\uC0C1\uD55C 21\uC138\uAE30
+    \uD604\uB300\uD310 \uAD34\uBB3C\uC758 \uB9C8\uC9C0\uB9C9 \uBAA8\uC2B5\uC740 \n\uB098\uBE44\uC758
+    \uBCC0\uD0DC \uACFC\uC815 \uC911 \uACA9\uB3D9\uD558\uB294 Cocoon (\uBC88\uB370\uAE30)\uC774\uB2E4.\n\uAD34\uBB3C\uC740
+    \uC5B8\uC81C\uB77C\uB3C4 \uD130\uC838 \uB098\uC62C \uB4EF \uAFB8\uBB3C\uAC70\uB9AC\uBA70
+    \uC228 \uC26C\uACE0 \uC788\uB2E4.\nCocoon\uC740 \uC544\uB0A0\uB85C\uADF8\uC640
+    \uBA54\uD0C0\uBC84\uC2A4\uC758 \uC911\uAC04 \uC9C0\uC810\uC5D0 \uB193\uC5EC\uC788\uB294
+    \uD604\uC2E4\uC774\uAE30\uB3C4 \uD558\uB2E4.\n\uD604 \uC138\uAE30\uB97C \uACBD\uD5D8\uD558\uBA74\uC11C
+    \uB290\uB080 \uBD88\uC548, \uACE0\uD1B5, \uACBD\uC678\uC2EC, \uC0DD\uC18C\uD568
+    \uB4F1\uC758 \uAC10\uC815\uC744 \n\uB514\uC9C0\uD138 \uD788\uB4DC\uB77C\uAC00
+    \uAFC8\uD2C0\uAC70\uB9AC\uB294 \uACA9\uB3D9\uC744 \uD1B5\uD574 \uB9C8\uC8FC\uD558\uAE30
+    \uBC14\uB780\uB2E4.\n\uC774 Cocoon\uC740 \uC218\uB9CC \uAC1C\uC758 \uBAA8\uC2B5\uC73C\uB85C
+    \uB2F9\uC2E0\uC758 \uC77C\uC0C1\uC5D0 \uC874\uC7AC\uD55C\uB2E4."
 --- !u!1 &3200824660234877806
 GameObject:
   m_ObjectHideFlags: 0
@@ -1623,7 +1630,7 @@ GameObject:
   - component: {fileID: 1887474162891331143}
   - component: {fileID: 1469121925910413663}
   m_Layer: 5
-  m_Name: Scene5
+  m_Name: Scene4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1645,8 +1652,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 25}
-  m_SizeDelta: {x: -200, y: -210}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: -160, y: -160}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1887474162891331143
 CanvasRenderer:
@@ -1678,10 +1685,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: b9d945785bf457241800d5ec47347c6c, type: 3}
-    m_FontSize: 24
+    m_FontSize: 18
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 2
+    m_MinSize: 1
     m_MaxSize: 28
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -1689,14 +1696,16 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Scene5\t\n1. \uAE30\uAE30\uB97C \uC218\uD3C9\uC73C\uB85C \uB4E0 \uCC44
-    \uAE30\uC6B8\uC774\uC9C0 \uC54A\uACE0, \n\uB9C8\uCEE4\uB97C \uC544\uB798\uBD80\uD130
-    \uC704\uB85C \uCC9C\uCC9C\uD788 \uC778\uC2DD\uD558\uC138\uC694.\n2. \uD654\uBA74
-    \uC18D \uBB3C\uCCB4\uAC00 \uC0AC\uB77C\uC9C0\uAC70\uB098 \uC704\uCE58\uAC00 \uC774\uC0C1\uD558\uB2E4\uBA74,\nQR
-    \uC778\uC2DD\uD558\uAE30 \uBC84\uD2BC\uC744 \uD074\uB9AD\uD558\uACE0, \uB2E4\uC2DC
-    \uB9C8\uCEE4\uB97C \uC778\uC2DD\uD574\uC8FC\uC138\uC694. \n3. \uC624\uB958 \uBC1C\uC0DD
-    \uC2DC, \uC571\uC744 \uC7AC\uC2DC\uC791\uD558\uAC70\uB098 \uB3C4\uC2A8\uD2B8\uB97C
-    \uCC3E\uC544\uC8FC\uC138\uC694."
+  m_Text: "Scene 4. The Drink\n\uB204\uAD6C\uB098 \uD55C \uBC88\uCBE4 \uCEE4\uD53C\uB098
+    \uC5D0\uB108\uC9C0 \uB4DC\uB9C1\uD06C\uB85C \uC7A0\uC744 \uCAD3\uC544 \uBCF4\uC558\uC744
+    \uAC83\uC774\uB2E4.\n\uAE30\uACC4\uAC00 \uC544\uB2CC \uC778\uAC04\uC758 \uBAB8\uC774
+    \uC9C0\uB2CC \uD55C\uACC4\uC774\uC790, \uC778\uAC04\uC784\uC744 \uC99D\uBA85\uD558\uB294
+    \u2018\uC7A0\u2019. \r\n\uC6B0\uB9AC\uB294 '\uC7A0'\uC744 \uD654\uD559 \uAE30\uC220\uB85C
+    \uC81C\uC870\uB41C \uC778\uACF5 \uC74C\uB8CC\uB85C \uC774\uACA8\uB0B4\uACE0\uC790
+    \uD55C\uB2E4. \r\n\uD604\uB300 \uC0AC\uD68C\uB294 \uC5D0\uB108\uC9C0 \uB4DC\uB9C1\uD06C\uB97C
+    \uD654\uB824\uD558\uAC8C \uD64D\uBCF4\uD558\uBA70 \uC720\uD639\uD55C\uB2E4.\r\n\uC778\uAC04\uC744
+    \uD55C\uACC4\uB97C \uB6F0\uC5B4\uB118\uC5B4 \uC7A0\uB4E4\uC9C0 \uC54A\uB294 \uB2F9\uC2E0\uC758
+    \uBC24\uC744 \uC751\uC6D0\uD558\uBA74\uC11C..."
 --- !u!1 &5108150736369379790
 GameObject:
   m_ObjectHideFlags: 0
@@ -1784,7 +1793,7 @@ GameObject:
   - component: {fileID: 5504391996500867855}
   - component: {fileID: 7162203948055997792}
   m_Layer: 5
-  m_Name: Scene4
+  m_Name: Scene3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1806,8 +1815,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 25}
-  m_SizeDelta: {x: -200, y: -210}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: -160, y: -160}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5504391996500867855
 CanvasRenderer:
@@ -1839,10 +1848,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: b9d945785bf457241800d5ec47347c6c, type: 3}
-    m_FontSize: 24
+    m_FontSize: 18
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 2
+    m_MinSize: 1
     m_MaxSize: 28
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -1850,13 +1859,16 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Scene4\n1. \uAE30\uAE30\uB97C \uC218\uD3C9\uC73C\uB85C \uB4E0 \uCC44 \uAE30\uC6B8\uC774\uC9C0
-    \uC54A\uACE0, \n\uB9C8\uCEE4\uB97C \uC544\uB798\uBD80\uD130 \uC704\uB85C \uCC9C\uCC9C\uD788
-    \uC778\uC2DD\uD558\uC138\uC694.\n2. \uD654\uBA74 \uC18D \uBB3C\uCCB4\uAC00 \uC0AC\uB77C\uC9C0\uAC70\uB098
-    \uC704\uCE58\uAC00 \uC774\uC0C1\uD558\uB2E4\uBA74,\nQR \uC778\uC2DD\uD558\uAE30
-    \uBC84\uD2BC\uC744 \uD074\uB9AD\uD558\uACE0, \uB2E4\uC2DC \uB9C8\uCEE4\uB97C
-    \uC778\uC2DD\uD574\uC8FC\uC138\uC694. \n3. \uC624\uB958 \uBC1C\uC0DD \uC2DC,
-    \uC571\uC744 \uC7AC\uC2DC\uC791\uD558\uAC70\uB098 \uB3C4\uC2A8\uD2B8\uB97C \uCC3E\uC544\uC8FC\uC138\uC694."
+  m_Text: "Scene 3. Playing Robots\n\uC778\uAC04\uC758 \uACE0\uC720\uD55C \uC601\uC5ED\uC740
+    \uC5B4\uB514\uAE4C\uC9C0\uC77C\uAE4C? \uBCF4\uC2A4\uD134 \uB2E4\uC774\uB0B4\uBBF9\uC2A4
+    \uB85C\uBD07\uC774 \n\uB124 \uB2E4\uB9AC\uB85C \uB6F0\uC5B4\uB2E4\uB2C8\uC790
+    \uC0AC\uB78C\uB4E4\uC740 \uC5F4\uAD11\uD558\uACE0 \uD328\uB2C9\uD588\uB2E4.\n\uC0AC\uB78C\uB4E4\uC740
+    \uC778\uACF5\uC9C0\uB2A5\uACFC \uB85C\uBD07\uC758 \uBC1C\uC804\uC744 \uD3B8\uB9AC\uD558\uB2E4\uACE0
+    \uC0DD\uAC01\uD558\uBA74\uC11C\uB3C4\n\uC778\uAC04\uACFC\uC758 \uACBD\uACC4\uAC00
+    \uC0AC\uB77C\uC9C8\uAE4C\uBD10 \uB450\uB824\uC6CC\uD55C\uB2E4. \n\uC6B0\uB9AC\uB294
+    \uC778\uAC04\uC774 \uC544\uC9C1 \uCE68\uBC94\uB2F9\uD558\uC9C0 \uC54A\uC740 \uC601\uC5ED\uC740
+    '\uB180\uC774'\uB77C\uACE0 \uC0DD\uAC01\uD588\uB2E4.\n\uD558\uC9C0\uB9CC \uC815\uB9D0
+    \uADF8\uAC83\uC774 \uC778\uAC04\uB9CC\uC758 \uAC83\uC774 \uB420 \uC218 \uC788\uC744\uAE4C?"
 --- !u!1 &6463285549778486930
 GameObject:
   m_ObjectHideFlags: 0
@@ -1869,7 +1881,7 @@ GameObject:
   - component: {fileID: 4788050304999231080}
   - component: {fileID: 3957080962632027830}
   m_Layer: 5
-  m_Name: Scene2
+  m_Name: Scene1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1891,8 +1903,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 25}
-  m_SizeDelta: {x: -200, y: -210}
+  m_AnchoredPosition: {x: 0, y: 10}
+  m_SizeDelta: {x: -160, y: -180}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4788050304999231080
 CanvasRenderer:
@@ -1924,10 +1936,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: b9d945785bf457241800d5ec47347c6c, type: 3}
-    m_FontSize: 24
+    m_FontSize: 18
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 2
+    m_MinSize: 1
     m_MaxSize: 28
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -1935,13 +1947,17 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Scene2\n1. \uAE30\uAE30\uB97C \uC218\uD3C9\uC73C\uB85C \uB4E0 \uCC44 \uAE30\uC6B8\uC774\uC9C0
-    \uC54A\uACE0, \n\uB9C8\uCEE4\uB97C \uC544\uB798\uBD80\uD130 \uC704\uB85C \uCC9C\uCC9C\uD788
-    \uC778\uC2DD\uD558\uC138\uC694.\n2. \uD654\uBA74 \uC18D \uBB3C\uCCB4\uAC00 \uC0AC\uB77C\uC9C0\uAC70\uB098
-    \uC704\uCE58\uAC00 \uC774\uC0C1\uD558\uB2E4\uBA74,\nQR \uC778\uC2DD\uD558\uAE30
-    \uBC84\uD2BC\uC744 \uD074\uB9AD\uD558\uACE0, \uB2E4\uC2DC \uB9C8\uCEE4\uB97C
-    \uC778\uC2DD\uD574\uC8FC\uC138\uC694. \n3. \uC624\uB958 \uBC1C\uC0DD \uC2DC,
-    \uC571\uC744 \uC7AC\uC2DC\uC791\uD558\uAC70\uB098 \uB3C4\uC2A8\uD2B8\uB97C \uCC3E\uC544\uC8FC\uC138\uC694."
+  m_Text: "Scene 1. The Book\n\uC774 \uC791\uD488\uC758 \uC2DC\uC791\uC740 \uC18C\uC124
+    \uD504\uB791\uCF04\uC288\uD0C0\uC778\uACFC \uC791\uAC00 \uBA54\uB9AC\uC178\uB9AC\uB2E4.\n\uD504\uB791\uCF04\uC288\uD0C0\uC778\uC740
+    200\uB144\uC774 \uC9C0\uB09C \uC9C0\uAE08\uB3C4 SF \uC18C\uC124\uC758 \uC2DC\uCD08\uB77C\uACE0
+    \uBD88\uB9B0\uB2E4.\n\uC18C\uC124 \uC18D \uAD34\uBB3C\uC740 \uACFC\uD559 \uAE30\uC220,
+    \uC778\uAC04\uC758 \uC695\uB9DD, \uC0DD\uBA85\uACFC \uD30C\uBA78\uC774 \uB4A4\uC5C9\uCF1C
+    \uD0DC\uC5B4\uB0AC\uB2E4.\n\uC6B0\uB9AC\uB294 21\uC138\uAE30\uAE4C\uC9C0\uB3C4
+    \uADF8 \uAD34\uBB3C\uC774 \uC774\uC5B4\uC9C4\uB2E4\uACE0 \uC0DD\uAC01\uD588\uB2E4.
+    \uADF8\uB798\uC11C \uAD34\uBB3C\uC744\n\uD604\uB300\uC801\uC73C\uB85C \uC7AC\uD574\uC11D\uD558\uACE0
+    \uD604\uC874 \uAE30\uC220\uACFC \uC0AC\uD68C\uC0C1\uC744 \uC5F0\uACB0\uC9D3\uB294
+    \uAD00\uC810\uC744\n\uC5EC\uB7EC \uC7A5\uBA74\uC744 \uD1B5\uD574 \uBCF4\uC5EC\uC900\uB2E4.
+    \uC774 \uCC45\uC740 \uADF8 \uC5EC\uC815\uC5D0 \uB300\uD55C \uC2DC\uC791\uC774\uB2E4."
 --- !u!1 &7105215072212337831
 GameObject:
   m_ObjectHideFlags: 0
@@ -1980,7 +1996,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 200, y: 60}
+  m_SizeDelta: {x: 160, y: 50}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!222 &4863458062831782421
 CanvasRenderer:
@@ -2124,8 +2140,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 25}
-  m_SizeDelta: {x: -200, y: -210}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: -160, y: -160}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3189334457810844051
 CanvasRenderer:
@@ -2169,7 +2185,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "\uC9C1\uC811 \uC790\uC2E0\uB9CC\uC758 \uACF5\uAC04\uC5D0\uC11C \uC774
-    \uC571\uC744 \uD50C\uB808\uC774 \uD558\uACE0 \uC2F6\uC73C\uC2E0\uAC00\uC694?\n\uC544\uB798
+    \uC571\uC744 \uD50C\uB808\uC774 \uD558\uACE0 \uC2F6\uB098\uC694?\n\uC544\uB798
     \uBC84\uD2BC\uC744 \uD074\uB9AD\uD574\uC11C \uC790\uC138\uD55C \uC124\uCE58 \uBC29\uBC95\uACFC
     \n\uB9C8\uCEE4 \uC774\uBBF8\uC9C0\uB97C \uB2E4\uC6B4\uB85C\uB4DC \uBC1B\uC73C\uC138\uC694!"
 --- !u!1 &8724027806246582387

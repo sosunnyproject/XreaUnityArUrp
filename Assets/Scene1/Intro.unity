@@ -2442,6 +2442,20 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3957080962632027830, guid: dd4d820f87ffd1c48990699fb3773b90, type: 3}
+      propertyPath: m_Text
+      value: "Scene 1. The Book\n\uC774 XR\uC791\uD488\uC740 \uC18C\uC124 \uD504\uB791\uCF04\uC288\uD0C0\uC778\uACFC
+        \uC791\uAC00 \uBA54\uB9AC\uC178\uB9AC\uC5D0\uAC8C \uC601\uAC10\uC744 \uBC1B\uC558\uB2E4.\n\uD504\uB791\uCF04\uC288\uD0C0\uC778\uC740
+        200\uB144\uC774 \uC9C0\uB09C \uC9C0\uAE08\uB3C4 SF \uC18C\uC124\uC758 \uC2DC\uCD08\uB77C\uACE0
+        \uBD88\uB9B0\uB2E4.\n\uC18C\uC124 \uC18D \uAD34\uBB3C\uC740 \uACFC\uD559
+        \uAE30\uC220, \uC778\uAC04\uC758 \uC695\uB9DD, \uC0DD\uBA85\uACFC \uD30C\uBA78\uC774
+        \uB4A4\uC5C9\uCF1C \uD0DC\uC5B4\uB0AC\uB2E4.\n\uC6B0\uB9AC\uB294 21\uC138\uAE30\uAE4C\uC9C0\uB3C4
+        \uADF8 \uAD34\uBB3C\uC774 \uC774\uC5B4\uC9C4\uB2E4\uACE0 \uC0DD\uAC01\uD588\uB2E4.
+        \uADF8\uB798\uC11C \uAD34\uBB3C\uC744\n\uD604\uB300\uC801\uC73C\uB85C \uC7AC\uD574\uC11D\uD558\uACE0
+        \uD604\uC874 \uAE30\uC220\uACFC \uC0AC\uD68C\uC0C1\uC744 \uC5F0\uACB0\uC9D3\uB294
+        \uAD00\uC810\uC744\n\uC5EC\uB7EC \uC7A5\uBA74\uC744 \uD1B5\uD574 \uBCF4\uC5EC\uC900\uB2E4.
+        \uC774 \uCC45\uC740 \uADF8 \uC5EC\uC815\uC5D0 \uB300\uD55C \uC2DC\uC791\uC774\uB2E4."
+      objectReference: {fileID: 0}
     - target: {fileID: 5134783391658602610, guid: dd4d820f87ffd1c48990699fb3773b90, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -2788,8 +2802,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 30}
-  m_SizeDelta: {x: -140, y: -240}
+  m_AnchoredPosition: {x: 0, y: 5}
+  m_SizeDelta: {x: -140, y: -190}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1528109669
 MonoBehaviour:
@@ -2813,7 +2827,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: b9d945785bf457241800d5ec47347c6c, type: 3}
-    m_FontSize: 24
+    m_FontSize: 22
     m_FontStyle: 0
     m_BestFit: 1
     m_MinSize: 2
@@ -2824,10 +2838,13 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "2021 \uD504\uB791\uCF04\uC288\uD0C0\uC778\r\n\uAE30\uC220\uB85C \uC778\uAC04\uC758
-    \uD55C\uACC4\uB97C \uB6F0\uC5B4 \uB118\uC73C\uB824\uB294 \uAD34\uBB3C\uC758 \uD0C4\uC0DD.
-    \r\n\uAD34\uBB3C\uC740 \uC5B4\uB5A4 \uBAA8\uC2B5\uC77C\uAE4C\uC694? \r\n\uC9C0\uAE08\uBD80\uD130
-    \uB2F9\uC2E0\uC758 \uC77C\uC0C1 \uC18D \uAD34\uBB3C\uC774 \uD53C\uC5B4\uB0A9\uB2C8\uB2E4."
+  m_Text: "\uAE30\uC220\uB85C \uC778\uAC04\uC758 \uD55C\uACC4\uB97C \uB6F0\uC5B4
+    \uB118\uC73C\uB824\uB294 \uAD34\uBB3C\uC758 \uD0C4\uC0DD. \r\n\uAD34\uBB3C\uC740
+    \uC5B4\uB5A4 \uBAA8\uC2B5\uC77C\uAE4C\uC694? \r\n\n\uC774\uC81C\uB294 \uB108\uBB34
+    \uB2F9\uC5F0\uD55C \uAE30\uC220\uC758 \uBC1C\uC804\uC774\uC9C0\uB9CC, \n\uAE30\uC220
+    \uC0AC\uD68C\uC5D0\uC11C \uC778\uAC04\uC774 \uB290\uB07C\uB294 \uAC10\uC815\uC740
+    \uBB34\uC5C7\uC77C\uAE4C\uC694? \n\n\uC9C0\uAE08\uBD80\uD130 \uB2F9\uC2E0\uC758
+    \uC77C\uC0C1 \uC18D \uAD34\uBB3C\uC774 \uD53C\uC5B4\uB0A9\uB2C8\uB2E4."
 --- !u!222 &1528109670
 CanvasRenderer:
   m_ObjectHideFlags: 0
