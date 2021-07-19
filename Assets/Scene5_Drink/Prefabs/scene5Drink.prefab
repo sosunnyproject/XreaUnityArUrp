@@ -23375,7 +23375,7 @@ GameObject:
   - component: {fileID: 8793914503501338422}
   - component: {fileID: 8793914503501338423}
   m_Layer: 0
-  m_Name: scene5drink
+  m_Name: scene5Drink
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23621,7 +23621,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8793914503501338264}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
   m_Name: 
