@@ -15,6 +15,8 @@ XREA Team Project: Unity 2020.3.12f1
   5. Scene 선택 후, Build And Run => 정상 빌드 되면 XCode 자동 실행 => 연결 Device 확인 => Build 하는 프로필:  애플 개발자 계정 필수 (유료): Signing/Certificate 탭에서 오피셜 계정 선택 (Personal Team 같은 계정 노노) => 내가 연결한 디바이스: 현 개발자 계정의 기기 리스트에 등록되어야 함 (전화 인증 필요할 수도), 디바이스 자체 내에서 애플 아이디 로그인 상태여야 함 => 정상 등록 & 개발자 계정 선택 제대로 되어 있으면 빌드 완료
 
 ## hololens2 build
+- Unity Asset Store: https://assetstore.unity.com/packages/templates/packs/vuforia-hololens-1-2-sample-for-unity-2020-2-and-later-183725
+
 - https://docs.microsoft.com/en-us/windows/mixed-reality/mrtk-unity/configuration/usingupm?view=mrtkunity-2021-05
 - https://docs.microsoft.com/ko-kr/windows/mixed-reality/develop/install-the-tools?tabs=unity
 - https://github.com/Microsoft/MixedRealityToolkit-Unity/releases
