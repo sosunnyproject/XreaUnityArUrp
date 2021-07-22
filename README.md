@@ -27,6 +27,9 @@ XREA Team Project: Unity 2020.3.12f1
 - https://developer.vuforia.com/downloads/sdk
 - https://kimyc1223.github.io/2020-12-11-HoloLens006/
 
+## ios 배포 튜토리얼
+- https://devparklibrary.tistory.com/41
+- https://devparklibrary.tistory.com/40
 
 ## 세팅 방법
 
