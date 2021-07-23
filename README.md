@@ -30,6 +30,12 @@ XREA Team Project: Unity 2020.3.12f1
 ## ios 배포 튜토리얼
 - https://devparklibrary.tistory.com/41
 - https://devparklibrary.tistory.com/40
+- http://it-archives.com/222155599575/
+- https://qastack.kr/programming/12867878/missing-private-key-in-the-distribution-certificate-on-keychain
+- https://pythonq.com/so/ios/78678
+- https://ithub.tistory.com/97
+- https://stackoverflow.com/questions/6499506/cant-install-an-iphone-developer-certificate-in-keychain/6499768
+- https://stackoverflow.com/questions/999313/iphone-app-signing-a-valid-signing-identity-matching-this-profile-could-not-be
 
 ## 세팅 방법
 
