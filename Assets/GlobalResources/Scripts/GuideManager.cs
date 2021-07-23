@@ -11,6 +11,7 @@ public class GuideManager : MonoBehaviour
     public GameObject scene5;
     public GameObject scene6;
     public GameObject imgDownload;
+    public GameObject credit;
 
     // Start is called before the first frame update
     void Start()
@@ -53,8 +54,13 @@ public class GuideManager : MonoBehaviour
 
         else if (imgDownload.activeSelf)
         {
-            mapImage.SetActive(true);
+            credit.SetActive(true);
             imgDownload.SetActive(false);
+        }
+        else if (credit.activeSelf)
+        {
+            mapImage.SetActive(true);
+            credit.SetActive(false);
         }
     }
 
