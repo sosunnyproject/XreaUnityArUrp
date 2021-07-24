@@ -1,7 +1,7 @@
 # xreaUnityURP
 XREA Team Project: Unity 2020.3.12f1 
 
-## 환경
+## 환경 
 - 버전: 2020.3.12f1
 - 초기 세팅 환경: 3D
 - 추가 패키지(Package Manager에서 import): Universal Render Pipeline, AR Foundation, ARCore XR Plugin, ARKit, AR Kit Face Tracking
