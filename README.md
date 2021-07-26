@@ -29,6 +29,7 @@ XREA Team Project: Unity 2020.3.12f1
 
 ## android deploy 배포시 유의사항
 - https://foxtrotin.tistory.com/131
+- il2cpp 모듈 없는 상황에서 재빌드시: Script backend - Mono, deselect x64 
 
 ## ios 배포 튜토리얼
 - https://devparklibrary.tistory.com/41
